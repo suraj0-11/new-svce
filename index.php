@@ -10,6 +10,7 @@
     </style>
     <link rel="stylesheet" href="src/navbar.css">
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="courses.css">
     <link rel="stylesheet" href="src/footer.css">
     <style>
         .spacer {
@@ -163,7 +164,115 @@
                     <div class="Accreditation-slide">
                         <img src="assets\Approvals\vtu-logo.png" height="128" width="128" alt />
                     </div>
+                    <div class="Accreditation-slide">
+                        <img src="assets\Approvals\aicte-logo.png" height="128" width="128" alt />
+                    </div>
+                    <div class="Accreditation-slide">
+                        <img src="assets\Approvals\b-naac.png" height="128" width="128" alt />
+                    </div>
+                    <div class="Accreditation-slide">
+                        <img src="assets\Approvals\karnataka-state-gvt.png" height="128" width="128" alt />
+                    </div>
+                    <div class="Accreditation-slide">
+                        <img src="assets\Approvals\nba.png" height="128" width="128" alt />
+                    </div>
                 </div>
+            </div>
+        </div>
+        <div class='app-container'>
+            <h1>ACADEMIC PROGRAM</h1><!-- Courses offered -->
+            <div class='img-nav'>
+
+                <div class='tile'>
+                    <p spine>CSE</p>
+                    <div class='content'>
+                        <h1>Example Text</h1>
+                        <p>Lorem Ipsum</p>
+                    </div>
+                    <div class='img'></div>
+                </div>
+
+                <div class='tile'>
+                    <p spine>CSE-AI</p>
+                    <div class='content'>
+                        <h1>Example Text</h1>
+                        <p>Lorem Ipsum</p>
+                    </div>
+                    <div class='img'></div>
+                </div>
+
+                <div class='tile'>
+                    <p spine>CSE-DS</p>
+                    <div class='content'>
+                        <h1>Example Text</h1>
+                        <p>Lorem Ipsum</p>
+                    </div>
+                    <div class='img'></div>
+                </div>
+
+                <div class='tile'>
+                    <p spine>CSE-CY</p>
+                    <div class='content'>
+                        <h1>Example Text</h1>
+                        <p>Lorem Ipsum</p>
+                    </div>
+                    <div class='img'></div>
+                </div>
+
+                <div class='tile'>
+                    <p spine>ISE</p>
+                    <div class='content'>
+                        <h1>Example Text</h1>
+                        <p>Lorem Ipsum</p>
+                    </div>
+                    <div class='img'></div>
+                </div>
+
+                <div class='tile'>
+                    <p spine>ECE</p>
+                    <div class='content'>
+                        <h1>Example Text</h1>
+                        <p>Lorem Ipsum</p>
+                    </div>
+                    <div class='img'></div>
+                </div>
+
+                <div class='tile'>
+                    <p spine>ME</p>
+                    <div class='content'>
+                        <h1>Example Text</h1>
+                        <p>Lorem Ipsum</p>
+                    </div>
+                    <div class='img'></div>
+                </div>
+
+                <div class='tile'>
+                    <p spine>CIVIL</p>
+                    <div class='content'>
+                        <h1>Example Text</h1>
+                        <p>Lorem Ipsum</p>
+                    </div>
+                    <div class='img'></div>
+                </div>
+
+                <div class='tile'>
+                    <p spine>MBA</p>
+                    <div class='content'>
+                        <h1>Example Text</h1>
+                        <p>Lorem Ipsum</p>
+                    </div>
+                    <div class='img'></div>
+                </div>
+
+                <div class='tile'>
+                    <p spine>M Tech</p>
+                    <div class='content'>
+                        <h1>Example Text</h1>
+                        <p>Lorem Ipsum</p>
+                    </div>
+                    <div class='img'></div>
+                </div>
+
             </div>
         </div>
         <div class="spacer"></div>
