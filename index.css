@@ -133,7 +133,19 @@ video {
     height: 100vh;
     margin-bottom: -100vh;
   }
+  &:nth-last-of-type(2) {
+    &:after {
+      display: none;
+    }
 
+    margin-bottom: 0;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.05),
+        transparent 50px
+      ),
+      linear-gradient(to top, rgba(0, 0, 0, 0.05), transparent 50px);
+  }
   &:last-of-type {
     &:after {
       display: none;
