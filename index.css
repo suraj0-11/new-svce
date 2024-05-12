@@ -125,49 +125,54 @@ video {
 
 .item {
   position: relative;
-  background-color: white;
-  background-image: linear-gradient(
-      to bottom,
-      rgba(0, 0, 0, 0.05),
-      transparent 50px
-    ),
-    linear-gradient(to top, rgba(0, 0, 0, 0.05), transparent 50px);
-}
+  background-color: #b9e6fe;
 
-.item:after {
-  content: "";
-  display: block;
-  height: 100vh;
-  margin-bottom: -100vh;
-}
+  &:after {
+    content: "";
+    display: block;
+    height: 100vh;
+    margin-bottom: -100vh;
+  }
 
-.item:last-of-type {
-  margin-bottom: 0;
-}
+  &:last-of-type {
+    &:after {
+      display: none;
+    }
 
-.image-holder {
-  position: sticky;
-  top: 8.5%;
-  float: left;
-  overflow: hidden;
-  height: 100vh;
-}
+    margin-bottom: 0;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.05),
+        transparent 50px
+      ),
+      linear-gradient(to top, rgba(0, 0, 0, 0.05), transparent 50px);
+  }
 
-.image-holder img {
-  position: relative;
-  height: 100%;
-  width: auto;
-  left: 50%;
-  transform: translateX(-50%);
-}
+  .image-holder {
+    position: sticky;
+    top: 8.5%;
+    float: left;
+    overflow: hidden;
+    /* width: 40%; */
+    height: 100vh;
 
-.text-holder {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 50%;
-  min-height: 120vh;
-  padding: 1em;
+    img {
+      position: relative;
+      height: 100%;
+      width: auto;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+
+  .text-holder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    min-height: 120vh;
+    padding: 1em;
+  }
 }
 
 .card-heading {
@@ -177,14 +182,12 @@ video {
   margin: 10px 10px;
   color: #072f4a;
 }
-
 .card-text {
   font-size: 1.5em;
   text-align: left;
   color: #0b4b6f;
   padding: 10px 0; /* top and bottom padding */
 }
-
 .card-scroll {
   border-left: #072f4a 15px solid;
   padding-left: 3em; /* Adjust this value to increase or decrease the spacing */
@@ -251,5 +254,31 @@ video {
 
 /* Styles for large screens */
 @media (min-width: 1024px) {
-  /* Existing styles */
+  /* Adjust container width or layout for large screens */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  /* Increase font sizes for better readability on larger screens */
+  .card-heading {
+    font-size: 3.5em;
+  }
+
+  .card-text {
+    font-size: 1.8em;
+  }
+
+  /* Adjust spacing or padding for better layout */
+  .card-scroll {
+    padding-left: 4em;
+  }
+
+  /* Change image dimensions or positioning */
+  .image-holder img {
+    height: auto;
+    max-width: 100%;
+    transform: none;
+    left: 0;
+  }
 }
