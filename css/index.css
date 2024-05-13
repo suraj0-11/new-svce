@@ -230,7 +230,7 @@ video {
   .image-holder {
     position: relative;
     top: 0;
-    float: none;
+    order: 1; /* Move the image-holder above the text-holder */
     width: 100%;
     height: auto;
   }
@@ -243,8 +243,11 @@ video {
   }
 
   .text-holder {
-    width: 100%;
+    position: relative; /* Set text-holder to relative position */
+    order: 2; /* Move the text-holder below the image-holder */
+    width: 100%; /* Make text-holder occupy full width */
     min-height: auto;
+    padding: 0; /* Remove any padding */
   }
 
   .card-heading {
@@ -252,22 +255,27 @@ video {
   }
 
   .card-text {
-    font-size: 1.2em;
+    font-size: 1.3em;
+    width: 280px;
   }
 
   .card-scroll {
     padding-left: 1.5em;
+    padding-right: 0; /* Remove right padding */
   }
 }
 
 /* Styles for medium screens */
 @media (min-width: 768px) and (max-width: 1023px) {
   .image-holder {
+    position: relative; /* Set image-holder to relative position */
     width: 50%;
   }
 
   .text-holder {
-    width: 40%;
+    position: relative; /* Set text-holder to relative position */
+    width: 50%; /* Make text-holder occupy remaining width */
+    padding: 0; /* Remove any padding */
   }
 
   .card-heading {
@@ -276,6 +284,11 @@ video {
 
   .card-text {
     font-size: 1.3em;
+  }
+
+  .card-scroll {
+    padding-left: 1.5em;
+    padding-right: 0; /* Remove right padding */
   }
 }
 
@@ -299,14 +312,23 @@ video {
   /* Adjust spacing or padding for better layout */
   .card-scroll {
     padding-left: 4em;
+    padding-right: 0; /* Remove right padding */
   }
 
   /* Change image dimensions or positioning */
+  .image-holder {
+    position: relative; /* Set image-holder to relative position */
+  }
+
   .image-holder img {
     height: auto;
     max-width: 100%;
     transform: none;
     left: 0;
+  }
+
+  .text-holder {
+    position: relative; /* Set text-holder to relative position */
   }
 }
 .Accreditation-container h1 {
