@@ -185,79 +185,73 @@
             <ul class="list">
                 <li class="item">
                     <div class="card">
-                        <div class="card-title">Card 1</div>
-                        <div class="card-info">Totam velit, mollitia eos consequuntur atque ipsa architecto itaque
-                            inventore modi. Commodi itaque at deleni labor dolores, dorum idunt pedit ipsam ab.</div>
+                        <div class="card-title">CSE</div>
+                        <div class="card-info">Computer Science & Engineering</div>
                         <div class="card-photo">
-                            <img class="card-img" src="https://picsum.photos/id/163/300/250" alt="Photo 1">
+                            <img class="card-img" src="assets/courses/cs.jpg" alt="Photo 1">
                         </div>
                     </div>
                 </li>
                 <li class="item">
                     <div class="card">
-                        <div class="card-title">Card 2</div>
-                        <div class="card-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                        <div class="card-title">CSE-AI</div>
+                        <div class="card-info">Computer Science & Engineering - Artificial Intelligence</div>
                         <div class="card-photo">
-                            <img class="card-img" src="https://picsum.photos/id/164/300/250" alt="Photo 2">
+                            <img class="card-img" src="assets/courses/ai.jpg" alt="Photo 2">
                         </div>
                     </div>
                 </li>
                 <li class="item">
                     <div class="card">
-                        <div class="card-title">Card 3</div>
-                        <div class="card-info">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                        <div class="card-title">CSE-DS</div>
+                        <div class="card-info">Computer Science & Engineering - <br>Data Science</br></div>
                         <div class="card-photo">
-                            <img class="card-img" src="https://picsum.photos/id/165/300/250" alt="Photo 3">
+                            <img class="card-img" src="assets/courses/ds.jpg" alt="Photo 3">
                         </div>
                     </div>
                 </li>
                 <li class="item">
                     <div class="card">
-                        <div class="card-title">Card 4</div>
-                        <div class="card-info">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse.
-                        </div>
+                        <div class="card-title">CSE-CY</div>
+                        <div class="card-info">Computer Science & Engineering-<br>Cyber Security</br></div>
                         <div class="card-photo">
-                            <img class="card-img" src="https://picsum.photos/id/166/300/250" alt="Photo 4">
-                        </div>
-                    </div>
-                </li>
-                <li class="item">
-                    <div class="card">
-                        <div class="card-title">Card 5</div>
-                        <div class="card-info">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
-                            fugit.</div>
-                        <div class="card-photo">
-                            <img class="card-img" src="https://picsum.photos/id/167/300/250" alt="Photo 5">
+                            <img class="card-img" src="assets/courses/cyber.jpg" alt="Photo 4">
                         </div>
                     </div>
                 </li>
                 <li class="item">
                     <div class="card">
-                        <div class="card-title">Card 6</div>
-                        <div class="card-info">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
-                            consectetur, adipisci velit.</div>
+                        <div class="card-title">ISE</div>
+                        <div class="card-info">Information Science & Engineering</div>
                         <div class="card-photo">
-                            <img class="card-img" src="https://picsum.photos/id/168/300/250" alt="Photo 6">
+                            <img class="card-img" src="assets/courses/is.jpg" alt="Photo 5">
                         </div>
                     </div>
                 </li>
                 <li class="item">
                     <div class="card">
-                        <div class="card-title">Card 7</div>
-                        <div class="card-info">Sed quia non numquam eius modi tempora incidunt ut labore et dolore
-                            magnam aliquam quaerat voluptatem.</div>
+                        <div class="card-title">ECE</div>
+                        <div class="card-info">Electronics and Communication Engineering</div>
                         <div class="card-photo">
-                            <img class="card-img" src="https://picsum.photos/id/169/300/250" alt="Photo 7">
+                            <img class="card-img" src="assets/courses/ece.jpg" alt="Photo 6">
                         </div>
                     </div>
                 </li>
                 <li class="item">
                     <div class="card">
-                        <div class="card-title">Card 8</div>
-                        <div class="card-info">Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis
-                            suscipit laboriosam.</div>
+                        <div class="card-title">MECH</div>
+                        <div class="card-info">Mechanical Engineering</div>
                         <div class="card-photo">
-                            <img class="card-img" src="https://picsum.photos/id/170/300/250" alt="Photo 8">
+                            <img class="card-img" src="assets/courses/mech.jpg" alt="Photo 7">
+                        </div>
+                    </div>
+                </li>
+                <li class="item">
+                    <div class="card">
+                        <div class="card-title">CIVIL</div>
+                        <div class="card-info">Civil Engineering</div>
+                        <div class="card-photo">
+                            <img class="card-img" src="assets/courses/civil.png" alt="Photo 8">
                         </div>
                     </div>
                 </li>
@@ -266,20 +260,19 @@
             <ul class="list">
                 <li class="item">
                     <div class="card">
-                        <div class="card-title">Card 1</div>
-                        <div class="card-info">Totam velit, mollitia eos consequuntur atque ipsa architecto itaque
-                            inventore modi. Commodi itaque at deleni labor dolores, dorum idunt pedit ipsam ab.</div>
+                        <div class="card-title">MBA</div>
+                        <div class="card-info">Master of Business Administration</div>
                         <div class="card-photo">
-                            <img class="card-img" src="https://picsum.photos/id/163/300/250" alt="Photo 1">
+                            <img class="card-img" src="assets/courses/mba.jpg" alt="Photo 1">
                         </div>
                     </div>
                 </li>
                 <li class="item">
                     <div class="card">
-                        <div class="card-title">Card 2</div>
-                        <div class="card-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                        <div class="card-title">M.TECH</div>
+                        <div class="card-info">M.TECH - Structural Engineering</div>
                         <div class="card-photo">
-                            <img class="card-img" src="https://picsum.photos/id/164/300/250" alt="Photo 2">
+                            <img class="card-img" src="assets/courses/mtech.png " alt="Photo 2">
                         </div>
                     </div>
                 </li>

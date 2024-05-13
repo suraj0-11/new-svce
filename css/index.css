@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
 /* General Styles */
 * {
   scrollbar-width: none;
@@ -98,8 +100,9 @@ video {
   z-index: 3;
   color: #ffffff;
   font-size: 60px;
+  font-family: "Rubik", sans-serif;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  -webkit-text-stroke: 1px #000000;
+  /* -webkit-text-stroke: 1px #000000; */
 }
 
 /* Media Queries */
@@ -145,7 +148,7 @@ video {
     }
     .card-text {
       font-size: 1.5em;
-      text-align: left;
+      text-align: justify;
       color: #072f4a;
       padding: 10px 0; /* top and bottom padding */
     }
@@ -211,7 +214,7 @@ video {
 }
 .card-text {
   font-size: 1.5em;
-  text-align: left;
+  text-align: justify;
   color: white;
   padding: 10px 0; /* top and bottom padding */
 }
