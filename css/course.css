@@ -90,7 +90,7 @@
   inset: auto var(--card-padding) 50px;
   line-height: 1.5;
   text-align: center;
-  font-size: 12px;
+  font-size: 20px;
   opacity: 0;
   transition: 0.3s;
 }
@@ -154,6 +154,6 @@
   position: relative;
   z-index: 5;
   border-radius: var(--card-bdrs);
-  object-fit: cover;
+  object-fit: fill;
   object-position: center;
 }
