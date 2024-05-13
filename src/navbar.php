@@ -34,4 +34,4 @@
       </button>
     </nav>
   </div>
-  <script src="src/navbar.js"></script>
+  <script src="js\navbar.js"></script>

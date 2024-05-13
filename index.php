@@ -8,10 +8,10 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
     </style>
-    <link rel="stylesheet" href="src/navbar.css">
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="courses.css">
-    <link rel="stylesheet" href="src/footer.css">
+    <link rel="stylesheet" href="css\navbar.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="css\index.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="css\course.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="css\footer.css?v=<?php echo time(); ?>">
     <style>
         .spacer {
             height: 100vh;
@@ -38,7 +38,7 @@
                 <div class="panel one" id="panel_1">
                     <div class="clip">
                         <div class="video_clip">
-                            <video src="assets\video\video.mp4" autoplay loop muted></video>
+                            <video src="assets/video/video.mp4" autoplay loop muted></video>
                         </div>
                     </div>
                 </div>
@@ -135,145 +135,155 @@
             <div class="Accreditation-slider">
                 <div class="Accreditation-slide-track">
                     <div class="Accreditation-slide">
-                        <img src="assets\Approvals\aicte-logo.png" height="128" width="128" alt />
+                        <img src="assets/Approvals/aicte-logo.png" height="128" width="128" alt />
                     </div>
                     <div class="Accreditation-slide">
-                        <img src="assets\Approvals\b-naac.png" height="128" width="128" alt />
+                        <img src="assets/Approvals/b-naac.png" height="128" width="128" alt />
                     </div>
                     <div class="Accreditation-slide">
-                        <img src="assets\Approvals\karnataka-state-gvt.png" height="128" width="128" alt />
+                        <img src="assets/Approvals/karnataka-state-gvt.png" height="128" width="128" alt />
                     </div>
                     <div class="Accreditation-slide">
-                        <img src="assets\Approvals\nba.png" height="128" width="128" alt />
+                        <img src="assets/Approvals/nba.png" height="128" width="128" alt />
                     </div>
                     <div class="Accreditation-slide">
-                        <img src="assets\Approvals\vtu-logo.png" height="128" width="128" alt />
+                        <img src="assets/Approvals/vtu-logo.png" height="128" width="128" alt />
                     </div>
                     <div class="Accreditation-slide">
-                        <img src="assets\Approvals\aicte-logo.png" height="128" width="128" alt />
+                        <img src="assets/Approvals/aicte-logo.png" height="128" width="128" alt />
                     </div>
                     <div class="Accreditation-slide">
-                        <img src="assets\Approvals\b-naac.png" height="128" width="128" alt />
+                        <img src="assets/Approvals/b-naac.png" height="128" width="128" alt />
                     </div>
                     <div class="Accreditation-slide">
-                        <img src="assets\Approvals\karnataka-state-gvt.png" height="128" width="128" alt />
+                        <img src="assets/Approvals/karnataka-state-gvt.png" height="128" width="128" alt />
                     </div>
                     <div class="Accreditation-slide">
-                        <img src="assets\Approvals\nba.png" height="128" width="128" alt />
+                        <img src="assets/Approvals/nba.png" height="128" width="128" alt />
                     </div>
                     <div class="Accreditation-slide">
-                        <img src="assets\Approvals\vtu-logo.png" height="128" width="128" alt />
+                        <img src="assets/Approvals/vtu-logo.png" height="128" width="128" alt />
                     </div>
                     <div class="Accreditation-slide">
-                        <img src="assets\Approvals\aicte-logo.png" height="128" width="128" alt />
+                        <img src="assets/Approvals/aicte-logo.png" height="128" width="128" alt />
                     </div>
                     <div class="Accreditation-slide">
-                        <img src="assets\Approvals\b-naac.png" height="128" width="128" alt />
+                        <img src="assets/Approvals/b-naac.png" height="128" width="128" alt />
                     </div>
                     <div class="Accreditation-slide">
-                        <img src="assets\Approvals\karnataka-state-gvt.png" height="128" width="128" alt />
+                        <img src="assets/Approvals/karnataka-state-gvt.png" height="128" width="128" alt />
                     </div>
                     <div class="Accreditation-slide">
-                        <img src="assets\Approvals\nba.png" height="128" width="128" alt />
+                        <img src="assets/Approvals/nba.png" height="128" width="128" alt />
                     </div>
                 </div>
             </div>
         </div>
-        <div class='app-container'>
-            <h1>ACADEMIC PROGRAM</h1><!-- Courses offered -->
-            <div class='img-nav'>
-
-                <div class='tile'>
-                    <p spine>CSE</p>
-                    <div class='content'>
-                        <h1>Example Text</h1>
-                        <p>Lorem Ipsum</p>
+        <div class="Courses-container">
+            <h1>Academic Programs</h1>
+            <h2>UNDERGRADUATE PROGRAMMES</h2>
+            <ul class="list">
+                <li class="item">
+                    <div class="card">
+                        <div class="card-title">Card 1</div>
+                        <div class="card-info">Totam velit, mollitia eos consequuntur atque ipsa architecto itaque
+                            inventore modi. Commodi itaque at deleni labor dolores, dorum idunt pedit ipsam ab.</div>
+                        <div class="card-photo">
+                            <img class="card-img" src="https://picsum.photos/id/163/300/250" alt="Photo 1">
+                        </div>
                     </div>
-                    <div class='img'></div>
-                </div>
-
-                <div class='tile'>
-                    <p spine>CSE-AI</p>
-                    <div class='content'>
-                        <h1>Example Text</h1>
-                        <p>Lorem Ipsum</p>
+                </li>
+                <li class="item">
+                    <div class="card">
+                        <div class="card-title">Card 2</div>
+                        <div class="card-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                        <div class="card-photo">
+                            <img class="card-img" src="https://picsum.photos/id/164/300/250" alt="Photo 2">
+                        </div>
                     </div>
-                    <div class='img'></div>
-                </div>
-
-                <div class='tile'>
-                    <p spine>CSE-DS</p>
-                    <div class='content'>
-                        <h1>Example Text</h1>
-                        <p>Lorem Ipsum</p>
+                </li>
+                <li class="item">
+                    <div class="card">
+                        <div class="card-title">Card 3</div>
+                        <div class="card-info">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                        <div class="card-photo">
+                            <img class="card-img" src="https://picsum.photos/id/165/300/250" alt="Photo 3">
+                        </div>
                     </div>
-                    <div class='img'></div>
-                </div>
-
-                <div class='tile'>
-                    <p spine>CSE-CY</p>
-                    <div class='content'>
-                        <h1>Example Text</h1>
-                        <p>Lorem Ipsum</p>
+                </li>
+                <li class="item">
+                    <div class="card">
+                        <div class="card-title">Card 4</div>
+                        <div class="card-info">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse.
+                        </div>
+                        <div class="card-photo">
+                            <img class="card-img" src="https://picsum.photos/id/166/300/250" alt="Photo 4">
+                        </div>
                     </div>
-                    <div class='img'></div>
-                </div>
-
-                <div class='tile'>
-                    <p spine>ISE</p>
-                    <div class='content'>
-                        <h1>Example Text</h1>
-                        <p>Lorem Ipsum</p>
+                </li>
+                <li class="item">
+                    <div class="card">
+                        <div class="card-title">Card 5</div>
+                        <div class="card-info">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
+                            fugit.</div>
+                        <div class="card-photo">
+                            <img class="card-img" src="https://picsum.photos/id/167/300/250" alt="Photo 5">
+                        </div>
                     </div>
-                    <div class='img'></div>
-                </div>
-
-                <div class='tile'>
-                    <p spine>ECE</p>
-                    <div class='content'>
-                        <h1>Example Text</h1>
-                        <p>Lorem Ipsum</p>
+                </li>
+                <li class="item">
+                    <div class="card">
+                        <div class="card-title">Card 6</div>
+                        <div class="card-info">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+                            consectetur, adipisci velit.</div>
+                        <div class="card-photo">
+                            <img class="card-img" src="https://picsum.photos/id/168/300/250" alt="Photo 6">
+                        </div>
                     </div>
-                    <div class='img'></div>
-                </div>
-
-                <div class='tile'>
-                    <p spine>ME</p>
-                    <div class='content'>
-                        <h1>Example Text</h1>
-                        <p>Lorem Ipsum</p>
+                </li>
+                <li class="item">
+                    <div class="card">
+                        <div class="card-title">Card 7</div>
+                        <div class="card-info">Sed quia non numquam eius modi tempora incidunt ut labore et dolore
+                            magnam aliquam quaerat voluptatem.</div>
+                        <div class="card-photo">
+                            <img class="card-img" src="https://picsum.photos/id/169/300/250" alt="Photo 7">
+                        </div>
                     </div>
-                    <div class='img'></div>
-                </div>
-
-                <div class='tile'>
-                    <p spine>CIVIL</p>
-                    <div class='content'>
-                        <h1>Example Text</h1>
-                        <p>Lorem Ipsum</p>
+                </li>
+                <li class="item">
+                    <div class="card">
+                        <div class="card-title">Card 8</div>
+                        <div class="card-info">Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis
+                            suscipit laboriosam.</div>
+                        <div class="card-photo">
+                            <img class="card-img" src="https://picsum.photos/id/170/300/250" alt="Photo 8">
+                        </div>
                     </div>
-                    <div class='img'></div>
-                </div>
-
-                <div class='tile'>
-                    <p spine>MBA</p>
-                    <div class='content'>
-                        <h1>Example Text</h1>
-                        <p>Lorem Ipsum</p>
+                </li>
+            </ul>
+            <h2>POSTGRADUATE PROGRAMMES</h2>
+            <ul class="list">
+                <li class="item">
+                    <div class="card">
+                        <div class="card-title">Card 1</div>
+                        <div class="card-info">Totam velit, mollitia eos consequuntur atque ipsa architecto itaque
+                            inventore modi. Commodi itaque at deleni labor dolores, dorum idunt pedit ipsam ab.</div>
+                        <div class="card-photo">
+                            <img class="card-img" src="https://picsum.photos/id/163/300/250" alt="Photo 1">
+                        </div>
                     </div>
-                    <div class='img'></div>
-                </div>
-
-                <div class='tile'>
-                    <p spine>M Tech</p>
-                    <div class='content'>
-                        <h1>Example Text</h1>
-                        <p>Lorem Ipsum</p>
+                </li>
+                <li class="item">
+                    <div class="card">
+                        <div class="card-title">Card 2</div>
+                        <div class="card-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                        <div class="card-photo">
+                            <img class="card-img" src="https://picsum.photos/id/164/300/250" alt="Photo 2">
+                        </div>
                     </div>
-                    <div class='img'></div>
-                </div>
-
-            </div>
+                </li>
+            </ul>
         </div>
         <div class="spacer"></div>
         <div class="Footer"><?php include "src/footer.php"; ?></div>
