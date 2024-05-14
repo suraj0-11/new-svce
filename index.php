@@ -12,12 +12,14 @@
     <link rel="stylesheet" href="css\animation.css?v=<?php echo time(); ?>">
     <link rel="stylesheet" href="css\index.css?v=<?php echo time(); ?>">
     <link rel="stylesheet" href="css\course.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="css\campusnews.css?v=<?php echo time(); ?>">
     <link rel="stylesheet" href="css\footer.css?v=<?php echo time(); ?>">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
     <style>
         .spacer {
             height: 100vh;
+            background-color: white;
         }
     </style>
 </head>
@@ -132,305 +134,436 @@
                         </div>
                     </div>
                 </div>
-            </div><!-- END Reveal panel section -->
-        </section>
-        <div class="Transition-Left">
-            <div class="Accreditation-container">
-                <h1 class="AccreditationTitle">Accreditation & Rankings</h1>
-                <div class="Accreditation-slider">
-                    <div class="Accreditation-slide-track">
-                        <div class="Accreditation-slide">
-                            <img src="assets/Approvals/aicte-logo.png" height="128" width="128" alt />
-                        </div>
-                        <div class="Accreditation-slide">
-                            <img src="assets/Approvals/b-naac.png" height="128" width="128" alt />
-                        </div>
-                        <div class="Accreditation-slide">
-                            <img src="assets/Approvals/karnataka-state-gvt.png" height="128" width="128" alt />
-                        </div>
-                        <div class="Accreditation-slide">
-                            <img src="assets/Approvals/nba.png" height="128" width="128" alt />
-                        </div>
-                        <div class="Accreditation-slide">
-                            <img src="assets/Approvals/i-guage.png" height="128" width="128" alt />
-                        </div>
-                        <div class="Accreditation-slide">
-                            <img src="assets/Approvals/vtu-logo.png" height="128" width="128" alt />
-                        </div>
-                        <div class="Accreditation-slide">
-                            <img src="assets/Approvals/aicte-logo.png" height="128" width="128" alt />
-                        </div>
-                        <div class="Accreditation-slide">
-                            <img src="assets/Approvals/b-naac.png" height="128" width="128" alt />
-                        </div>
-                        <div class="Accreditation-slide">
-                            <img src="assets/Approvals/karnataka-state-gvt.png" height="128" width="128" alt />
-                        </div>
-                        <div class="Accreditation-slide">
-                            <img src="assets/Approvals/nba.png" height="128" width="128" alt />
-                        </div>
-                        <div class="Accreditation-slide">
-                            <img src="assets/Approvals/i-guage.png" height="128" width="128" alt />
-                        </div>
-                        <div class="Accreditation-slide">
-                            <img src="assets/Approvals/vtu-logo.png" height="128" width="128" alt />
-                        </div>
-                        <div class="Accreditation-slide">
-                            <img src="assets/Approvals/aicte-logo.png" height="128" width="128" alt />
-                        </div>
-                        <div class="Accreditation-slide">
-                            <img src="assets/Approvals/b-naac.png" height="128" width="128" alt />
-                        </div>
-                        <div class="Accreditation-slide">
-                            <img src="assets/Approvals/karnataka-state-gvt.png" height="128" width="128" alt />
-                        </div>
-                        <div class="Accreditation-slide">
-                            <img src="assets/Approvals/nba.png" height="128" width="128" alt />
-                        </div>
-                        <div class="Accreditation-slide">
-                            <img src="assets/Approvals/i-guage.png" height="128" width="128" alt />
-                        </div>
-                        <div class="Accreditation-slide">
-                            <img src="assets/Approvals/vtu-logo.png" height="128" width="128" alt />
-                        </div>
+            </div>
+    </div><!-- END Reveal panel section -->
+    </section>
+    <div class="Transition-Left">
+        <div class="Accreditation-container">
+            <h1 class="AccreditationTitle">Accreditation & Rankings</h1>
+            <div class="Accreditation-slider">
+                <div class="Accreditation-slide-track">
+                    <div class="Accreditation-slide">
+                        <img src="assets/Approvals/aicte-logo.png" height="128" width="128" alt />
+                    </div>
+                    <div class="Accreditation-slide">
+                        <img src="assets/Approvals/b-naac.png" height="128" width="128" alt />
+                    </div>
+                    <div class="Accreditation-slide">
+                        <img src="assets/Approvals/karnataka-state-gvt.png" height="128" width="128" alt />
+                    </div>
+                    <div class="Accreditation-slide">
+                        <img src="assets/Approvals/nba.png" height="128" width="128" alt />
+                    </div>
+                    <div class="Accreditation-slide">
+                        <img src="assets/Approvals/i-guage.png" height="128" width="128" alt />
+                    </div>
+                    <div class="Accreditation-slide">
+                        <img src="assets/Approvals/vtu-logo.png" height="128" width="128" alt />
+                    </div>
+                    <div class="Accreditation-slide">
+                        <img src="assets/Approvals/aicte-logo.png" height="128" width="128" alt />
+                    </div>
+                    <div class="Accreditation-slide">
+                        <img src="assets/Approvals/b-naac.png" height="128" width="128" alt />
+                    </div>
+                    <div class="Accreditation-slide">
+                        <img src="assets/Approvals/karnataka-state-gvt.png" height="128" width="128" alt />
+                    </div>
+                    <div class="Accreditation-slide">
+                        <img src="assets/Approvals/nba.png" height="128" width="128" alt />
+                    </div>
+                    <div class="Accreditation-slide">
+                        <img src="assets/Approvals/i-guage.png" height="128" width="128" alt />
+                    </div>
+                    <div class="Accreditation-slide">
+                        <img src="assets/Approvals/vtu-logo.png" height="128" width="128" alt />
+                    </div>
+                    <div class="Accreditation-slide">
+                        <img src="assets/Approvals/aicte-logo.png" height="128" width="128" alt />
+                    </div>
+                    <div class="Accreditation-slide">
+                        <img src="assets/Approvals/b-naac.png" height="128" width="128" alt />
+                    </div>
+                    <div class="Accreditation-slide">
+                        <img src="assets/Approvals/karnataka-state-gvt.png" height="128" width="128" alt />
+                    </div>
+                    <div class="Accreditation-slide">
+                        <img src="assets/Approvals/nba.png" height="128" width="128" alt />
+                    </div>
+                    <div class="Accreditation-slide">
+                        <img src="assets/Approvals/i-guage.png" height="128" width="128" alt />
+                    </div>
+                    <div class="Accreditation-slide">
+                        <img src="assets/Approvals/vtu-logo.png" height="128" width="128" alt />
                     </div>
                 </div>
             </div>
         </div>
-        <div class="Courses-container fade-in">
-            <h1>Academic Programs</h1>
-            <h2>UNDERGRADUATE PROGRAMMES</h2>
-            <ul class="list fade-in">
-                <li class="item">
-                    <div class="card">
-                        <div class="card-title">CSE</div>
-                        <div class="card-info">Computer Science & Engineering</div>
-                        <div class="card-photo">
-                            <img class="card-img" src="assets/courses/cs.jpg" alt="Photo 1">
-                        </div>
-                    </div>
-                </li>
-                <li class="item">
-                    <div class="card">
-                        <div class="card-title">CSE-AI</div>
-                        <div class="card-info">Computer Science & Engineering - Artificial Intelligence</div>
-                        <div class="card-photo">
-                            <img class="card-img" src="assets/courses/ai.jpg" alt="Photo 2">
-                        </div>
-                    </div>
-                </li>
-                <li class="item">
-                    <div class="card">
-                        <div class="card-title">CSE-DS</div>
-                        <div class="card-info">Computer Science & Engineering - <br>Data Science</br></div>
-                        <div class="card-photo">
-                            <img class="card-img" src="assets/courses/ds.jpg" alt="Photo 3">
-                        </div>
-                    </div>
-                </li>
-                <li class="item">
-                    <div class="card">
-                        <div class="card-title">CSE-CY</div>
-                        <div class="card-info">Computer Science & Engineering-<br>Cyber Security</br></div>
-                        <div class="card-photo">
-                            <img class="card-img" src="assets/courses/cyber.jpg" alt="Photo 4">
-                        </div>
-                    </div>
-                </li>
-                <li class="item">
-                    <div class="card">
-                        <div class="card-title">ISE</div>
-                        <div class="card-info">Information Science & Engineering</div>
-                        <div class="card-photo">
-                            <img class="card-img" src="assets/courses/is.jpg" alt="Photo 5">
-                        </div>
-                    </div>
-                </li>
-                <li class="item">
-                    <div class="card">
-                        <div class="card-title">ECE</div>
-                        <div class="card-info">Electronics and Communication Engineering</div>
-                        <div class="card-photo">
-                            <img class="card-img" src="assets/courses/ece.jpg" alt="Photo 6">
-                        </div>
-                    </div>
-                </li>
-                <li class="item">
-                    <div class="card">
-                        <div class="card-title">MECH</div>
-                        <div class="card-info">Mechanical Engineering</div>
-                        <div class="card-photo">
-                            <img class="card-img" src="assets/courses/mech.jpg" alt="Photo 7">
-                        </div>
-                    </div>
-                </li>
-                <li class="item">
-                    <div class="card">
-                        <div class="card-title">CIVIL</div>
-                        <div class="card-info">Civil Engineering</div>
-                        <div class="card-photo">
-                            <img class="card-img" src="assets/courses/civil.png" alt="Photo 8">
-                        </div>
-                    </div>
-                </li>
-            </ul>
-            <h2>POSTGRADUATE PROGRAMMES</h2>
-            <ul class="list fade-in">
-                <li class="item">
-                    <div class="card">
-                        <div class="card-title">MBA</div>
-                        <div class="card-info">Master of Business Administration</div>
-                        <div class="card-photo">
-                            <img class="card-img" src="assets/courses/mba.jpg" alt="Photo 1">
-                        </div>
-                    </div>
-                </li>
-                <li class="item">
-                    <div class="card">
-                        <div class="card-title">M.TECH</div>
-                        <div class="card-info">M.TECH - Structural Engineering</div>
-                        <div class="card-photo">
-                            <img class="card-img" src="assets/courses/mtech.png " alt="Photo 2">
-                        </div>
-                    </div>
-                </li>
-            </ul>
-            <div class="header-container fade-in">
-                <h2>RESEARCH</h2>
-                <div class="background-image">
-                    <div class="text-container">
-                        <p>Explore our cutting-edge research initiatives.</p>
+    </div>
+    <div class="Courses-container fade-in">
+        <h1>Academic Programs</h1>
+        <h2>UNDERGRADUATE PROGRAMMES</h2>
+        <ul class="list fade-in">
+            <li class="item">
+                <div class="card">
+                    <div class="card-title">CSE</div>
+                    <div class="card-info">Computer Science & Engineering</div>
+                    <div class="card-photo">
+                        <img class="card-img" src="assets/courses/cs.jpg" alt="Photo 1">
                     </div>
                 </div>
-
-
-                <div class="btn-container">
-                    <a href="#" class="btn">Know More</a>
+            </li>
+            <li class="item">
+                <div class="card">
+                    <div class="card-title">CSE-AI</div>
+                    <div class="card-info">Computer Science & Engineering - Artificial Intelligence</div>
+                    <div class="card-photo">
+                        <img class="card-img" src="assets/courses/ai.jpg" alt="Photo 2">
+                    </div>
+                </div>
+            </li>
+            <li class="item">
+                <div class="card">
+                    <div class="card-title">CSE-DS</div>
+                    <div class="card-info">Computer Science & Engineering - <br>Data Science</br></div>
+                    <div class="card-photo">
+                        <img class="card-img" src="assets/courses/ds.jpg" alt="Photo 3">
+                    </div>
+                </div>
+            </li>
+            <li class="item">
+                <div class="card">
+                    <div class="card-title">CSE-CY</div>
+                    <div class="card-info">Computer Science & Engineering-<br>Cyber Security</br></div>
+                    <div class="card-photo">
+                        <img class="card-img" src="assets/courses/cyber.jpg" alt="Photo 4">
+                    </div>
+                </div>
+            </li>
+            <li class="item">
+                <div class="card">
+                    <div class="card-title">ISE</div>
+                    <div class="card-info">Information Science & Engineering</div>
+                    <div class="card-photo">
+                        <img class="card-img" src="assets/courses/is.jpg" alt="Photo 5">
+                    </div>
+                </div>
+            </li>
+            <li class="item">
+                <div class="card">
+                    <div class="card-title">ECE</div>
+                    <div class="card-info">Electronics and Communication Engineering</div>
+                    <div class="card-photo">
+                        <img class="card-img" src="assets/courses/ece.jpg" alt="Photo 6">
+                    </div>
+                </div>
+            </li>
+            <li class="item">
+                <div class="card">
+                    <div class="card-title">MECH</div>
+                    <div class="card-info">Mechanical Engineering</div>
+                    <div class="card-photo">
+                        <img class="card-img" src="assets/courses/mech.jpg" alt="Photo 7">
+                    </div>
+                </div>
+            </li>
+            <li class="item">
+                <div class="card">
+                    <div class="card-title">CIVIL</div>
+                    <div class="card-info">Civil Engineering</div>
+                    <div class="card-photo">
+                        <img class="card-img" src="assets/courses/civil.png" alt="Photo 8">
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <h2>POSTGRADUATE PROGRAMMES</h2>
+        <ul class="list fade-in">
+            <li class="item">
+                <div class="card">
+                    <div class="card-title">MBA</div>
+                    <div class="card-info">Master of Business Administration</div>
+                    <div class="card-photo">
+                        <img class="card-img" src="assets/courses/mba.jpg" alt="Photo 1">
+                    </div>
+                </div>
+            </li>
+            <li class="item">
+                <div class="card">
+                    <div class="card-title">M.TECH</div>
+                    <div class="card-info">M.TECH - Structural Engineering</div>
+                    <div class="card-photo">
+                        <img class="card-img" src="assets/courses/mtech.png " alt="Photo 2">
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <div class="header-container fade-in">
+            <h2>RESEARCH</h2>
+            <div class="background-image">
+                <div class="text-container">
+                    <p>Explore our cutting-edge research initiatives.</p>
                 </div>
             </div>
+
+
+            <div class="btn-container">
+                <a href="#" class="btn">Know More</a>
+            </div>
         </div>
+    </div>
+    <div class="campus-news-container">
+        <h1 class="campus-news-heading">
+            <center>CAMPUS NEWS</center>
+        </h1>
+        <h3 class="campus-news-subheading">
+            <center>Stories about people, research, and innovation across the Farm.</center>
+        </h3>
+        <main class="campus-news-grid">
+            <article
+                class="campus-news-testimonial campus-news-grid-col-span-2 campus-news-flow campus-news-bg-primary-400 campus-news-quote campus-news-text-neutral-100">
+                <div class="campus-news-flex">
+                    <!-- <div>
+                    <img src="./images/image-daniel.jpg" alt="daniel clifford">
+                </div>
+                <div>
+                    <h2 class="campus-news-name">Daniel Clifford</h2>
+                    <p class="campus-news-position">Verified Graduate</p>
+                </div> -->
+                </div>
+                <p class="campus-news-paragraph">
+                    I received a job offer mid-course, and the subjects I learned were current, if not more so,
+                    in the company I joined. I honestly feel I got every penny's worth.
+                </p>
+                <p class="campus-news-paragraph">
+                    " I was an EMT for many years before I joined the bootcamp. I've been looking to make a
+                    transition and have heard some people who had an amazing experience here. I signed up
+                    for the free intro course and found it incredibly fun! I enrolled shortly thereafter.
+                    The next 12 weeks was the best - and most grueling - time of my life. Since completing
+                    the course, I've successfully switched careers, working as a Software Engineer at a VR startup. "
+                </p>
+            </article>
+            <article
+                class="campus-news-testimonial campus-news-flow campus-news-bg-secondary-400 campus-news-text-neutral-100">
+                <div class="campus-news-flex">
+                    <!-- <div>
+                    <img src="./images/image-jonathan.jpg" alt="Jonathan Walters">
+                </div>
+                <div>
+                    <h2 class="campus-news-name">Jonathan Walters</h2>
+                    <p class="campus-news-position">Verified Graduate</p>
+                </div> -->
+                </div>
+                <p class="campus-news-paragraph">
+                    The team was very supportive and kept me motivated
+                </p>
+                <p class="campus-news-paragraph">
+                    " I started as a total newbie with virtually no coding skills. I now work as a mobile engineer
+                    for a big company. This was one of the best investments I've made in myself. "
+                </p>
+            </article>
+            <article
+                class="campus-news-testimonial campus-news-flow campus-news-bg-neutral-100 campus-news-text-secondary-400">
+                <div class="campus-news-flex">
+                    <!-- <div>
+                    <img src="./images/image-jeanette.jpg" alt="Jeanette Harmon">
+                </div>
+                <div>
+                    <h2 class="campus-news-name">Jeanette Harmon</h2>
+                    <p class="campus-news-position">Verified Graduate</p>
+                </div> -->
+                </div>
+                <p class="campus-news-paragraph">
+                    An overall wonderful and rewarding experience</p>
+                <p class="campus-news-paragraph">
+                    " Thank you for the wonderful experience! I now have a job I really enjoy, and make a good living
+                    while doing something I love. "
+                </p>
+            </article>
+            <article
+                class="campus-news-testimonial campus-news-grid-col-span-2 campus-news-flow campus-news-bg-secondary-500 campus-news-text-neutral-100">
+                <div class="campus-news-flex">
+                    <!-- <div>
+                    <img class="campus-news-border-primary-400" src="./images/image-patrick.jpg" alt="Patrick Abrams">
+                </div>
+                <div>
+                    <h2 class="campus-news-name">Patrick Abrams</h2>
+                    <p class="campus-news-position">Verified Graduate</p>
+                </div> -->
+                </div>
+                <p class="campus-news-paragraph">
+                    Awesome teaching support from TAs who did the bootcamp themselves. Getting guidance from them and
+                    learning from their experiences was easy.
+                </p>
+                <p class="campus-news-paragraph">
+                    " The staff seem genuinely concerned about my progress which I find really refreshing. The program
+                    gave me the confidence necessary to be able to go out in the world and present myself as a capable
+                    junior developer. The standard is above the rest. You will get the personal attention you need from
+                    an incredible community of smart and amazing people. "
+                </p>
+            </article>
+            <article
+                class="campus-news-testimonial campus-news-flow campus-news-bg-neutral-100 campus-news-text-secondary-400">
+                <div class="campus-news-flex">
+                    <!-- <div>
+                    <img src="./images/image-kira.jpg" alt="Kira Whittle">
+                </div>
+                <div>
+                    <h2 class="campus-news-name">Kira Whittle</h2>
+                    <p class="campus-news-position">Verified Graduate</p>
+                </div> -->
+                </div>
+                <p class="campus-news-paragraph">
+                    Such a life-changing experience. Highly recommended!
+                </p>
+                <p class="campus-news-paragraph">
+                    " Before joining the bootcamp, I've never written a line of code. I needed some structure from
+                    professionals who can help me learn programming step by step. I was encouraged to enroll by a former
+                    student of theirs who can only say wonderful things about the program. The entire curriculum and
+                    staff
+                    did not disappoint. They were very hands-on and I never had to wait long for assistance. The agile
+                    team
+                    project, in particular, was outstanding. It took my learning to the next level in a way that no
+                    tutorial
+                    could ever have. In fact, I've often referred to it during interviews as an example of my developent
+                    experience. It certainly helped me land a job as a full-stack developer after receiving multiple
+                    offers.
+                    100% recommend! "
+                </p>
+            </article>
+        </main>
+    </div>
+    <div>
         <section class="heading">
-  <div class="content">
-    <div class="lockup">
+            <div class="content">
+                <div class="lockup">
+                    <h2 class="headline">Sri Venkateshwara College Of Engineering <br class="large">
+                        Placement Drives
+                    </h2>
+                    <p class="blurb">
+                        We try our best to get students there dream placements <a href="#">svcengg.edu.in</a>.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="marquees__wrapper">
+            <div class="marquee" data-duration="5" data-reverse="true">
+                <div class="marquee__group">
+                    <div class="item1">
+                        <img src="https://is2-ssl.mzstatic.com/image/thumb/GT66HoV8VJL1IZwaqos_TQ/756x425.jpg"
+                            alt="Ted Lasso" srcset="">
+                    </div>
+                    <div class="item1">
+                        <img src="https://is1-ssl.mzstatic.com/image/thumb/zRCSBlp0LjwClRXsjyDNYQ/756x425.jpg"
+                            alt="CODA" srcset="">
+                    </div>
+                    <div class="item1">
+                        <img src="https://is1-ssl.mzstatic.com/image/thumb/vPnF3gIE_xEMoXPI1SyluA/756x425.jpg"
+                            alt="Prehistoric Planet" srcset="">
+                    </div>
+                    <div class="item1">
+                        <img src="https://is4-ssl.mzstatic.com/image/thumb/GwU4Qm-NLXeNi7M5bxpX-g/756x425.jpg"
+                            alt="The Long Game" srcset="">
+                    </div>
+                    <div class="item1">
+                        <img src="https://is3-ssl.mzstatic.com/image/thumb/d6sprLP3-1W-OlED4ZlzOg/756x425.jpg"
+                            alt="Sidney" srcset="">
+                    </div>
+                    <div class="item1">
+                        <img src="https://is5-ssl.mzstatic.com/image/thumb/PWsYggMXgU6kQrxaB3MZPQ/756x425.jpg"
+                            alt="Shantaram" srcset="">
+                    </div>
+                    <div class="item1">
+                        <img src="https://is3-ssl.mzstatic.com/image/thumb/kVTKGnVvCdFlB1sZeKa8YQ/756x425.jpg"
+                            alt="Suspicion">
+                    </div>
+                    <div class="item1">
+                        <img src="https://is5-ssl.mzstatic.com/image/thumb/7SeRlnCzKlgeqrg6-ixkig/738x416.jpg"
+                            alt="SEE">
+                    </div>
+                </div>
 
-      <div class="icon">
-        <img src="https://tv.apple.com/assets/brands/TV_App_Logo-d343000dfd3ca454ca8705a7aa7dcf4f.png" alt="" srcset="">
-      </div>
-      <h2 class="headline">Watch Apple&nbsp;TV+ anywhere <br class="large">on the Apple&nbsp;TV&nbsp;app.</h2>
-      <p class="blurb">
-        Find the Apple TV app on your favorite Apple devices. Or watch Apple TV+ online at <a href="#">tv.apple.com</a>.
-      </p>
-    </div>
-  </div>
-</section>
-<section class="marquees__wrapper">
-  <div class="marquee" data-duration="5" data-reverse="true">
-    <div class="marquee__group">
-      <div class="item1">
-        <img src="https://is2-ssl.mzstatic.com/image/thumb/GT66HoV8VJL1IZwaqos_TQ/756x425.jpg" alt="Ted Lasso" srcset="">
-      </div>
-      <div class="item1">
-        <img src="https://is1-ssl.mzstatic.com/image/thumb/zRCSBlp0LjwClRXsjyDNYQ/756x425.jpg" alt="CODA" srcset="">
-      </div>
-      <div class="item1">
-        <img src="https://is1-ssl.mzstatic.com/image/thumb/vPnF3gIE_xEMoXPI1SyluA/756x425.jpg" alt="Prehistoric Planet" srcset="">
-      </div>
-      <div class="item1">
-        <img src="https://is4-ssl.mzstatic.com/image/thumb/GwU4Qm-NLXeNi7M5bxpX-g/756x425.jpg" alt="The Long Game" srcset="">
-      </div>
-      <div class="item1">
-        <img src="https://is3-ssl.mzstatic.com/image/thumb/d6sprLP3-1W-OlED4ZlzOg/756x425.jpg" alt="Sidney" srcset="">
-      </div>
-      <div class="item1">
-        <img src="https://is5-ssl.mzstatic.com/image/thumb/PWsYggMXgU6kQrxaB3MZPQ/756x425.jpg" alt="Shantaram" srcset="">
-      </div>
-      <div class="item1">
-        <img src="https://is3-ssl.mzstatic.com/image/thumb/kVTKGnVvCdFlB1sZeKa8YQ/756x425.jpg" alt="Suspicion">
-      </div>
-      <div class="item1">
-        <img src="https://is5-ssl.mzstatic.com/image/thumb/7SeRlnCzKlgeqrg6-ixkig/738x416.jpg" alt="SEE">
-      </div>
-    </div>
+            </div>
+            <div class="marquee" data-duration="5">
+                <div class="marquee__group">
+                    <div class="item1">
+                        <img src="https://is5-ssl.mzstatic.com/image/thumb/ewq0-5ZSairVdRtcg43s0w/738x416.jpg"
+                            alt="Five Days at Memorial" srcset="">
+                    </div>
+                    <div class="item1">
+                        <img src="https://is3-ssl.mzstatic.com/image/thumb/AWDRdQz0nepFpnsUNiTDuw/738x416.jpg"
+                            alt="The Morning Show" srcset="">
+                    </div>
+                    <div class="item1">
+                        <img src="https://is1-ssl.mzstatic.com/image/thumb/oANBVngpEJDvHRhdyozySA/738x416.jpg"
+                            alt="Grey Hound" srcset="">
+                    </div>
+                    <div class="item1">
+                        <img src="https://is4-ssl.mzstatic.com/image/thumb/L4WNJNV3nbmyAL6MQSeGuw/738x416.jpg"
+                            alt="Defending Jacob" srcset="">
+                    </div>
+                    <div class="item1">
+                        <img src="https://is2-ssl.mzstatic.com/image/thumb/qYEYYvFXN2O4zEuCcBSbjw/738x416.jpg"
+                            alt="Foundation" srcset="">
+                    </div>
+                    <div class="item1">
+                        <img src="https://is3-ssl.mzstatic.com/image/thumb/3iAbZQ4pznOpDRenkvOhNA/738x416.jpg"
+                            alt="Dickinson" srcset="">
+                    </div>
+                    <div class="item1">
+                        <img src="https://is2-ssl.mzstatic.com/image/thumb/6tJakyTEtS0vrgdc9POZpg/738x416.jpg"
+                            alt="Servant">
+                    </div>
+                    <div class="item1">
+                        <img src="https://is1-ssl.mzstatic.com/image/thumb/mqP1mK0HzuFhIBXsd_Q_SA/738x416.jpg"
+                            alt="Home Before Dark">
+                    </div>
+                </div>
 
-  </div>
-  <div class="marquee" data-duration="5">
-    <div class="marquee__group">
-      <div class="item1">
-        <img src="https://is5-ssl.mzstatic.com/image/thumb/ewq0-5ZSairVdRtcg43s0w/738x416.jpg" alt="Five Days at Memorial" srcset="">
-      </div>
-      <div class="item1">
-        <img src="https://is3-ssl.mzstatic.com/image/thumb/AWDRdQz0nepFpnsUNiTDuw/738x416.jpg" alt="The Morning Show" srcset="">
-      </div>
-      <div class="item1">
-        <img src="https://is1-ssl.mzstatic.com/image/thumb/oANBVngpEJDvHRhdyozySA/738x416.jpg" alt="Grey Hound" srcset="">
-      </div>
-      <div class="item1">
-        <img src="https://is4-ssl.mzstatic.com/image/thumb/L4WNJNV3nbmyAL6MQSeGuw/738x416.jpg" alt="Defending Jacob" srcset="">
-      </div>
-      <div class="item1">
-        <img src="https://is2-ssl.mzstatic.com/image/thumb/qYEYYvFXN2O4zEuCcBSbjw/738x416.jpg" alt="Foundation" srcset="">
-      </div>
-      <div class="item1">
-        <img src="https://is3-ssl.mzstatic.com/image/thumb/3iAbZQ4pznOpDRenkvOhNA/738x416.jpg" alt="Dickinson" srcset="">
-      </div>
-      <div class="item1">
-        <img src="https://is2-ssl.mzstatic.com/image/thumb/6tJakyTEtS0vrgdc9POZpg/738x416.jpg" alt="Servant">
-      </div>
-      <div class="item1">
-        <img src="https://is1-ssl.mzstatic.com/image/thumb/mqP1mK0HzuFhIBXsd_Q_SA/738x416.jpg" alt="Home Before Dark">
-      </div>
-    </div>
+            </div>
+            <div class="marquee" data-duration="7">
+                <div class="marquee__group">
+                    <div class="item1">
+                        <img src="https://is2-ssl.mzstatic.com/image/thumb/GT66HoV8VJL1IZwaqos_TQ/756x425.jpg"
+                            alt="Ted Lasso" srcset="">
+                    </div>
+                    <div class="item1">
+                        <img src="https://is1-ssl.mzstatic.com/image/thumb/zRCSBlp0LjwClRXsjyDNYQ/756x425.jpg"
+                            alt="CODA" srcset="">
+                    </div>
+                    <div class="item1">
+                        <img src="https://is1-ssl.mzstatic.com/image/thumb/vPnF3gIE_xEMoXPI1SyluA/756x425.jpg"
+                            alt="Prehistoric Planet" srcset="">
+                    </div>
+                    <div class="item1">
+                        <img src="https://is4-ssl.mzstatic.com/image/thumb/GwU4Qm-NLXeNi7M5bxpX-g/756x425.jpg"
+                            alt="The Long Game" srcset="">
+                    </div>
+                    <div class="item1">
+                        <img src="https://is3-ssl.mzstatic.com/image/thumb/d6sprLP3-1W-OlED4ZlzOg/756x425.jpg"
+                            alt="Sidney" srcset="">
+                    </div>
+                    <div class="item1">
+                        <img src="https://is5-ssl.mzstatic.com/image/thumb/PWsYggMXgU6kQrxaB3MZPQ/756x425.jpg"
+                            alt="Shantaram" srcset="">
+                    </div>
+                    <div class="item1">
+                        <img src="https://is3-ssl.mzstatic.com/image/thumb/kVTKGnVvCdFlB1sZeKa8YQ/756x425.jpg"
+                            alt="Suspicion">
+                    </div>
+                    <div class="item1">
+                        <img src="https://is5-ssl.mzstatic.com/image/thumb/7SeRlnCzKlgeqrg6-ixkig/738x416.jpg"
+                            alt="SEE">
+                    </div>
+                </div>
 
-  </div>
-  <div class="marquee" data-duration="7">
-    <div class="marquee__group">
-      <div class="item1">
-        <img src="https://is2-ssl.mzstatic.com/image/thumb/GT66HoV8VJL1IZwaqos_TQ/756x425.jpg" alt="Ted Lasso" srcset="">
-      </div>
-      <div class="item1">
-        <img src="https://is1-ssl.mzstatic.com/image/thumb/zRCSBlp0LjwClRXsjyDNYQ/756x425.jpg" alt="CODA" srcset="">
-      </div>
-      <div class="item1">
-        <img src="https://is1-ssl.mzstatic.com/image/thumb/vPnF3gIE_xEMoXPI1SyluA/756x425.jpg" alt="Prehistoric Planet" srcset="">
-      </div>
-      <div class="item1">
-        <img src="https://is4-ssl.mzstatic.com/image/thumb/GwU4Qm-NLXeNi7M5bxpX-g/756x425.jpg" alt="The Long Game" srcset="">
-      </div>
-      <div class="item1">
-        <img src="https://is3-ssl.mzstatic.com/image/thumb/d6sprLP3-1W-OlED4ZlzOg/756x425.jpg" alt="Sidney" srcset="">
-      </div>
-      <div class="item1">
-        <img src="https://is5-ssl.mzstatic.com/image/thumb/PWsYggMXgU6kQrxaB3MZPQ/756x425.jpg" alt="Shantaram" srcset="">
-      </div>
-      <div class="item1">
-        <img src="https://is3-ssl.mzstatic.com/image/thumb/kVTKGnVvCdFlB1sZeKa8YQ/756x425.jpg" alt="Suspicion">
-      </div>
-      <div class="item1">
-        <img src="https://is5-ssl.mzstatic.com/image/thumb/7SeRlnCzKlgeqrg6-ixkig/738x416.jpg" alt="SEE">
-      </div>
+            </div>
+        </section>
     </div>
+    <div class="spacer"></div>
+    <div class="Footer"><?php include "src/footer.php"; ?></div>
 
-  </div>
-</section>
-<footer>
-  <div class="footer__content">
-    <div class="logo">
-      <svg viewBox="0 0 256 315" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid">
-        <g>
-          <path d="M213.803394,167.030943 C214.2452,214.609646 255.542482,230.442639 256,230.644727 C255.650812,231.761357 249.401383,253.208293 234.24263,275.361446 C221.138555,294.513969 207.538253,313.596333 186.113759,313.991545 C165.062051,314.379442 158.292752,301.507828 134.22469,301.507828 C110.163898,301.507828 102.642899,313.596301 82.7151126,314.379442 C62.0350407,315.16201 46.2873831,293.668525 33.0744079,274.586162 C6.07529317,235.552544 -14.5576169,164.286328 13.147166,116.18047 C26.9103111,92.2909053 51.5060917,77.1630356 78.2026125,76.7751096 C98.5099145,76.3877456 117.677594,90.4371851 130.091705,90.4371851 C142.497945,90.4371851 165.790755,73.5415029 190.277627,76.0228474 C200.528668,76.4495055 229.303509,80.1636878 247.780625,107.209389 C246.291825,108.132333 213.44635,127.253405 213.803394,167.030988 M174.239142,50.1987033 C185.218331,36.9088319 192.607958,18.4081019 190.591988,0 C174.766312,0.636050225 155.629514,10.5457909 144.278109,23.8283506 C134.10507,35.5906758 125.195775,54.4170275 127.599657,72.4607932 C145.239231,73.8255433 163.259413,63.4970262 174.239142,50.1987249" fill="currentColor"></path>
-        </g>
-      </svg>
-    </div>
-    <span class="separator"></span>
-    <div class="copy">
-      <i>Not</i> designed by Apple
-    </div>
-  </div>
-</footer>
-        <div class="spacer"></div>
-        <div class="Footer"><?php include "src/footer.php"; ?></div>
-
-        <script src="js/index.js"></script>
+    <script src="js/index.js"></script>
 </body>
 
 </html>

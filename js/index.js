@@ -35,7 +35,7 @@ fadeInElements.forEach((element) => {
       y: 0,
       scrollTrigger: {
         trigger: element,
-        start: "top 60%",
+        start: "top 70%",
       },
     }
   );
@@ -83,13 +83,13 @@ class Marquee {
     this.el = el;
     this.marqueeAnimation = [
       { transform: "translateX(0)" },
-      { transform: `translateX(calc(-100% - var(--gap,0)))` }
+      { transform: `translateX(calc(-100% - var(--gap,0)))` },
     ];
 
     this.marqueeTiming = {
       duration: this.el.dataset.duration * 10000,
       direction: this.el.dataset.reverse ? "reverse" : "normal",
-      iterations: Infinity
+      iterations: Infinity,
     };
     this.animations = [];
     this.SLOWDOWN_RATE = 0.2;

@@ -667,38 +667,6 @@ a:hover {
   transition: 300ms ease-in-out;
   scale: 1.03;
 }
-
-footer {
-  padding: var(--paddingSmall) 0;
-  margin: 0 var(--gap);
-  background: var(--backgroundColorDark);
-}
-
-.footer__content {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  color: var(--textColorDark);
-}
-
-.footer__content .logo {
-  width: 24px;
-  height: 24px;
-  place-content: center;
-  display: flex;
-  color: var(--textColorDark);
-}
-
-.footer__content .separator {
-  margin: 0 var(--gap);
-  width: 1px;
-  height: 18px;
-  background: var(--textColorDark);
-  opacity: 0.5;
-}
-
-
 @media (max-width: 900px) {
   :root {
     --gap: 10px;
