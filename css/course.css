@@ -157,3 +157,62 @@
   object-fit: fill;
   object-position: center;
 }
+
+.background-image {
+  background-image: url("https://www.ucsf.edu/sites/default/files/styles/narrow_page_banner/public/2023-02/research-banner-v2%20%281%29.jpeg");
+  background-size: auto; /* Update this line */
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 40vh; /* Adjust the height as needed */
+  position: relative;
+}
+
+.text-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  text-align: center;
+  max-width: 80%;
+}
+
+.header-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: white;
+  color: #072f4a;
+  text-decoration: none;
+  border-radius: 20px;
+  font-size: 16px;
+  transition: ease 0.2s;
+}
+
+.btn:hover {
+  background-color: #4fc3f7;
+}
+
+@media (max-width: 768px) {
+  .text-container {
+    max-width: 90%;
+    padding: 10px;
+  }
+
+  .btn {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+}

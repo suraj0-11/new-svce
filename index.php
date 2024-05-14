@@ -277,6 +277,19 @@
                     </div>
                 </li>
             </ul>
+            <div class="header-container">
+                <h2>RESEARCH</h2>
+                <div class="background-image">
+                    <div class="text-container">
+                        <p>Explore our cutting-edge research initiatives.</p>
+                    </div>
+                </div>
+
+
+                <div class="btn-container">
+                    <a href="#" class="btn">Know More</a>
+                </div>
+            </div>
         </div>
         <div class="spacer"></div>
         <div class="Footer"><?php include "src/footer.php"; ?></div>
