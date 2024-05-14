@@ -309,6 +309,124 @@
                 </div>
             </div>
         </div>
+        <section class="heading">
+  <div class="content">
+    <div class="lockup">
+
+      <div class="icon">
+        <img src="https://tv.apple.com/assets/brands/TV_App_Logo-d343000dfd3ca454ca8705a7aa7dcf4f.png" alt="" srcset="">
+      </div>
+      <h2 class="headline">Watch Apple&nbsp;TV+ anywhere <br class="large">on the Apple&nbsp;TV&nbsp;app.</h2>
+      <p class="blurb">
+        Find the Apple TV app on your favorite Apple devices. Or watch Apple TV+ online at <a href="#">tv.apple.com</a>.
+      </p>
+    </div>
+  </div>
+</section>
+<section class="marquees__wrapper">
+  <div class="marquee" data-duration="5" data-reverse="true">
+    <div class="marquee__group">
+      <div class="item1">
+        <img src="https://is2-ssl.mzstatic.com/image/thumb/GT66HoV8VJL1IZwaqos_TQ/756x425.jpg" alt="Ted Lasso" srcset="">
+      </div>
+      <div class="item1">
+        <img src="https://is1-ssl.mzstatic.com/image/thumb/zRCSBlp0LjwClRXsjyDNYQ/756x425.jpg" alt="CODA" srcset="">
+      </div>
+      <div class="item1">
+        <img src="https://is1-ssl.mzstatic.com/image/thumb/vPnF3gIE_xEMoXPI1SyluA/756x425.jpg" alt="Prehistoric Planet" srcset="">
+      </div>
+      <div class="item1">
+        <img src="https://is4-ssl.mzstatic.com/image/thumb/GwU4Qm-NLXeNi7M5bxpX-g/756x425.jpg" alt="The Long Game" srcset="">
+      </div>
+      <div class="item1">
+        <img src="https://is3-ssl.mzstatic.com/image/thumb/d6sprLP3-1W-OlED4ZlzOg/756x425.jpg" alt="Sidney" srcset="">
+      </div>
+      <div class="item1">
+        <img src="https://is5-ssl.mzstatic.com/image/thumb/PWsYggMXgU6kQrxaB3MZPQ/756x425.jpg" alt="Shantaram" srcset="">
+      </div>
+      <div class="item1">
+        <img src="https://is3-ssl.mzstatic.com/image/thumb/kVTKGnVvCdFlB1sZeKa8YQ/756x425.jpg" alt="Suspicion">
+      </div>
+      <div class="item1">
+        <img src="https://is5-ssl.mzstatic.com/image/thumb/7SeRlnCzKlgeqrg6-ixkig/738x416.jpg" alt="SEE">
+      </div>
+    </div>
+
+  </div>
+  <div class="marquee" data-duration="5">
+    <div class="marquee__group">
+      <div class="item1">
+        <img src="https://is5-ssl.mzstatic.com/image/thumb/ewq0-5ZSairVdRtcg43s0w/738x416.jpg" alt="Five Days at Memorial" srcset="">
+      </div>
+      <div class="item1">
+        <img src="https://is3-ssl.mzstatic.com/image/thumb/AWDRdQz0nepFpnsUNiTDuw/738x416.jpg" alt="The Morning Show" srcset="">
+      </div>
+      <div class="item1">
+        <img src="https://is1-ssl.mzstatic.com/image/thumb/oANBVngpEJDvHRhdyozySA/738x416.jpg" alt="Grey Hound" srcset="">
+      </div>
+      <div class="item1">
+        <img src="https://is4-ssl.mzstatic.com/image/thumb/L4WNJNV3nbmyAL6MQSeGuw/738x416.jpg" alt="Defending Jacob" srcset="">
+      </div>
+      <div class="item1">
+        <img src="https://is2-ssl.mzstatic.com/image/thumb/qYEYYvFXN2O4zEuCcBSbjw/738x416.jpg" alt="Foundation" srcset="">
+      </div>
+      <div class="item1">
+        <img src="https://is3-ssl.mzstatic.com/image/thumb/3iAbZQ4pznOpDRenkvOhNA/738x416.jpg" alt="Dickinson" srcset="">
+      </div>
+      <div class="item1">
+        <img src="https://is2-ssl.mzstatic.com/image/thumb/6tJakyTEtS0vrgdc9POZpg/738x416.jpg" alt="Servant">
+      </div>
+      <div class="item1">
+        <img src="https://is1-ssl.mzstatic.com/image/thumb/mqP1mK0HzuFhIBXsd_Q_SA/738x416.jpg" alt="Home Before Dark">
+      </div>
+    </div>
+
+  </div>
+  <div class="marquee" data-duration="7">
+    <div class="marquee__group">
+      <div class="item1">
+        <img src="https://is2-ssl.mzstatic.com/image/thumb/GT66HoV8VJL1IZwaqos_TQ/756x425.jpg" alt="Ted Lasso" srcset="">
+      </div>
+      <div class="item1">
+        <img src="https://is1-ssl.mzstatic.com/image/thumb/zRCSBlp0LjwClRXsjyDNYQ/756x425.jpg" alt="CODA" srcset="">
+      </div>
+      <div class="item1">
+        <img src="https://is1-ssl.mzstatic.com/image/thumb/vPnF3gIE_xEMoXPI1SyluA/756x425.jpg" alt="Prehistoric Planet" srcset="">
+      </div>
+      <div class="item1">
+        <img src="https://is4-ssl.mzstatic.com/image/thumb/GwU4Qm-NLXeNi7M5bxpX-g/756x425.jpg" alt="The Long Game" srcset="">
+      </div>
+      <div class="item1">
+        <img src="https://is3-ssl.mzstatic.com/image/thumb/d6sprLP3-1W-OlED4ZlzOg/756x425.jpg" alt="Sidney" srcset="">
+      </div>
+      <div class="item1">
+        <img src="https://is5-ssl.mzstatic.com/image/thumb/PWsYggMXgU6kQrxaB3MZPQ/756x425.jpg" alt="Shantaram" srcset="">
+      </div>
+      <div class="item1">
+        <img src="https://is3-ssl.mzstatic.com/image/thumb/kVTKGnVvCdFlB1sZeKa8YQ/756x425.jpg" alt="Suspicion">
+      </div>
+      <div class="item1">
+        <img src="https://is5-ssl.mzstatic.com/image/thumb/7SeRlnCzKlgeqrg6-ixkig/738x416.jpg" alt="SEE">
+      </div>
+    </div>
+
+  </div>
+</section>
+<footer>
+  <div class="footer__content">
+    <div class="logo">
+      <svg viewBox="0 0 256 315" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid">
+        <g>
+          <path d="M213.803394,167.030943 C214.2452,214.609646 255.542482,230.442639 256,230.644727 C255.650812,231.761357 249.401383,253.208293 234.24263,275.361446 C221.138555,294.513969 207.538253,313.596333 186.113759,313.991545 C165.062051,314.379442 158.292752,301.507828 134.22469,301.507828 C110.163898,301.507828 102.642899,313.596301 82.7151126,314.379442 C62.0350407,315.16201 46.2873831,293.668525 33.0744079,274.586162 C6.07529317,235.552544 -14.5576169,164.286328 13.147166,116.18047 C26.9103111,92.2909053 51.5060917,77.1630356 78.2026125,76.7751096 C98.5099145,76.3877456 117.677594,90.4371851 130.091705,90.4371851 C142.497945,90.4371851 165.790755,73.5415029 190.277627,76.0228474 C200.528668,76.4495055 229.303509,80.1636878 247.780625,107.209389 C246.291825,108.132333 213.44635,127.253405 213.803394,167.030988 M174.239142,50.1987033 C185.218331,36.9088319 192.607958,18.4081019 190.591988,0 C174.766312,0.636050225 155.629514,10.5457909 144.278109,23.8283506 C134.10507,35.5906758 125.195775,54.4170275 127.599657,72.4607932 C145.239231,73.8255433 163.259413,63.4970262 174.239142,50.1987249" fill="currentColor"></path>
+        </g>
+      </svg>
+    </div>
+    <span class="separator"></span>
+    <div class="copy">
+      <i>Not</i> designed by Apple
+    </div>
+  </div>
+</footer>
         <div class="spacer"></div>
         <div class="Footer"><?php include "src/footer.php"; ?></div>
 
