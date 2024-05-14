@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css\animation.css?v=<?php echo time(); ?>">
     <link rel="stylesheet" href="css\index.css?v=<?php echo time(); ?>">
     <link rel="stylesheet" href="css\course.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="css\campus-life.css?v=<?php echo time(); ?>">
     <link rel="stylesheet" href="css\campusnews.css?v=<?php echo time(); ?>">
     <link rel="stylesheet" href="css\footer.css?v=<?php echo time(); ?>">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
@@ -309,6 +310,80 @@
 
             <div class="btn-container">
                 <a href="#" class="btn">Know More</a>
+            </div>
+        </div>
+    </div>
+    <div></div>
+    <div>
+        <div class="college-container">
+            <div class="college-header">
+                <h1>COLLEGE LIFE</h1>
+                <h2>Our thriving residential campus is home to a community of creative and accomplished people from
+                    around the world.</h2>
+                <div class="college-header-image">
+                    <img src="https://wallpapers.com/images/hd/taipei-city-art-4k-ultra-widescreen-dz45lm3r94lu42up.jpg"
+                        alt="Header Image">
+                </div>
+            </div>
+            <div class="college-section">
+                <h1>STUDENT LIFE</h1>
+                <div class="college-grid-container">
+                    <div class="college-grid-item">
+                        <img src="https://images.unsplash.com/photo-1622431062669-ed38267b6de5?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI3NjYzNDJ8&ixlib=rb-4.0.3&q=85"
+                            alt="Image 1">
+                        <p>Explore the vibrant city life and bustling streets.</p>
+                    </div>
+                    <div class="college-grid-item">
+                        <img src="https://images.unsplash.com/photo-1491172700640-4f1a131a3670?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI3NjY2ODV8&ixlib=rb-4.0.3&q=85"
+                            alt="Image 2">
+                        <p>Discover the beauty of nature in its purest form.</p>
+                    </div>
+                    <div class="college-grid-item">
+                        <img src="https://images.unsplash.com/photo-1592417817038-d13fd7342605?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI3NjU5NTV8&ixlib=rb-4.0.3&q=85"
+                            alt="Image 3">
+                        <p>Embark on an adventure and create lasting memories.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="college-section">
+                <h1>ARTS AND CULTURE</h1>
+                <div class="college-grid-container">
+                    <div class="college-grid-item">
+                        <img src="https://images.unsplash.com/photo-1622431062669-ed38267b6de5?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI3NjYzNDJ8&ixlib=rb-4.0.3&q=85"
+                            alt="Image 1">
+                        <p>Explore the vibrant city life and bustling streets.</p>
+                    </div>
+                    <div class="college-grid-item">
+                        <img src="https://images.unsplash.com/photo-1491172700640-4f1a131a3670?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI3NjY2ODV8&ixlib=rb-4.0.3&q=85"
+                            alt="Image 2">
+                        <p>Discover the beauty of nature in its purest form.</p>
+                    </div>
+                    <div class="college-grid-item">
+                        <img src="https://images.unsplash.com/photo-1592417817038-d13fd7342605?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI3NjU5NTV8&ixlib=rb-4.0.3&q=85"
+                            alt="Image 3">
+                        <p>Embark on an adventure and create lasting memories.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="college-section">
+                <h1>SPORTS AND FITNESS</h1>
+                <div class="college-grid-container">
+                    <div class="college-grid-item">
+                        <img src="https://images.unsplash.com/photo-1622431062669-ed38267b6de5?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI3NjYzNDJ8&ixlib=rb-4.0.3&q=85"
+                            alt="Image 1">
+                        <p>Explore the vibrant city life and bustling streets.</p>
+                    </div>
+                    <div class="college-grid-item">
+                        <img src="https://images.unsplash.com/photo-1491172700640-4f1a131a3670?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI3NjY2ODV8&ixlib=rb-4.0.3&q=85"
+                            alt="Image 2">
+                        <p>Discover the beauty of nature in its purest form.</p>
+                    </div>
+                    <div class="college-grid-item">
+                        <img src="https://images.unsplash.com/photo-1592417817038-d13fd7342605?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI3NjU5NTV8&ixlib=rb-4.0.3&q=85"
+                            alt="Image 3">
+                        <p>Embark on an adventure and create lasting memories.</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
