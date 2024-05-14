@@ -35,7 +35,7 @@ fadeInElements.forEach((element) => {
       y: 0,
       scrollTrigger: {
         trigger: element,
-        start: "top 80%",
+        start: "top 60%",
       },
     }
   );
