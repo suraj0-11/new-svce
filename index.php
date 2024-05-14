@@ -133,51 +133,65 @@
             </div><!-- END Reveal panel section -->
         </section>
         <script src="js/index.js"></script>
-        <div class="Accreditation-container">
-            <h1 class="AccreditationTitle">Accreditation & Rankings</h1>
-            <div class="Accreditation-slider">
-                <div class="Accreditation-slide-track">
-                    <div class="Accreditation-slide">
-                        <img src="assets/Approvals/aicte-logo.png" height="128" width="128" alt />
-                    </div>
-                    <div class="Accreditation-slide">
-                        <img src="assets/Approvals/b-naac.png" height="128" width="128" alt />
-                    </div>
-                    <div class="Accreditation-slide">
-                        <img src="assets/Approvals/karnataka-state-gvt.png" height="128" width="128" alt />
-                    </div>
-                    <div class="Accreditation-slide">
-                        <img src="assets/Approvals/nba.png" height="128" width="128" alt />
-                    </div>
-                    <div class="Accreditation-slide">
-                        <img src="assets/Approvals/vtu-logo.png" height="128" width="128" alt />
-                    </div>
-                    <div class="Accreditation-slide">
-                        <img src="assets/Approvals/aicte-logo.png" height="128" width="128" alt />
-                    </div>
-                    <div class="Accreditation-slide">
-                        <img src="assets/Approvals/b-naac.png" height="128" width="128" alt />
-                    </div>
-                    <div class="Accreditation-slide">
-                        <img src="assets/Approvals/karnataka-state-gvt.png" height="128" width="128" alt />
-                    </div>
-                    <div class="Accreditation-slide">
-                        <img src="assets/Approvals/nba.png" height="128" width="128" alt />
-                    </div>
-                    <div class="Accreditation-slide">
-                        <img src="assets/Approvals/vtu-logo.png" height="128" width="128" alt />
-                    </div>
-                    <div class="Accreditation-slide">
-                        <img src="assets/Approvals/aicte-logo.png" height="128" width="128" alt />
-                    </div>
-                    <div class="Accreditation-slide">
-                        <img src="assets/Approvals/b-naac.png" height="128" width="128" alt />
-                    </div>
-                    <div class="Accreditation-slide">
-                        <img src="assets/Approvals/karnataka-state-gvt.png" height="128" width="128" alt />
-                    </div>
-                    <div class="Accreditation-slide">
-                        <img src="assets/Approvals/nba.png" height="128" width="128" alt />
+        <div class="Transition-Left">
+            <div class="Accreditation-container">
+                <h1 class="AccreditationTitle">Accreditation & Rankings</h1>
+                <div class="Accreditation-slider">
+                    <div class="Accreditation-slide-track">
+                        <div class="Accreditation-slide">
+                            <img src="assets/Approvals/aicte-logo.png" height="128" width="128" alt />
+                        </div>
+                        <div class="Accreditation-slide">
+                            <img src="assets/Approvals/b-naac.png" height="128" width="128" alt />
+                        </div>
+                        <div class="Accreditation-slide">
+                            <img src="assets/Approvals/karnataka-state-gvt.png" height="128" width="128" alt />
+                        </div>
+                        <div class="Accreditation-slide">
+                            <img src="assets/Approvals/nba.png" height="128" width="128" alt />
+                        </div>
+                        <div class="Accreditation-slide">
+                            <img src="assets/Approvals/i-guage.png" height="128" width="128" alt />
+                        </div>
+                        <div class="Accreditation-slide">
+                            <img src="assets/Approvals/vtu-logo.png" height="128" width="128" alt />
+                        </div>
+                        <div class="Accreditation-slide">
+                            <img src="assets/Approvals/aicte-logo.png" height="128" width="128" alt />
+                        </div>
+                        <div class="Accreditation-slide">
+                            <img src="assets/Approvals/b-naac.png" height="128" width="128" alt />
+                        </div>
+                        <div class="Accreditation-slide">
+                            <img src="assets/Approvals/karnataka-state-gvt.png" height="128" width="128" alt />
+                        </div>
+                        <div class="Accreditation-slide">
+                            <img src="assets/Approvals/nba.png" height="128" width="128" alt />
+                        </div>
+                        <div class="Accreditation-slide">
+                            <img src="assets/Approvals/i-guage.png" height="128" width="128" alt />
+                        </div>
+                        <div class="Accreditation-slide">
+                            <img src="assets/Approvals/vtu-logo.png" height="128" width="128" alt />
+                        </div>
+                        <div class="Accreditation-slide">
+                            <img src="assets/Approvals/aicte-logo.png" height="128" width="128" alt />
+                        </div>
+                        <div class="Accreditation-slide">
+                            <img src="assets/Approvals/b-naac.png" height="128" width="128" alt />
+                        </div>
+                        <div class="Accreditation-slide">
+                            <img src="assets/Approvals/karnataka-state-gvt.png" height="128" width="128" alt />
+                        </div>
+                        <div class="Accreditation-slide">
+                            <img src="assets/Approvals/nba.png" height="128" width="128" alt />
+                        </div>
+                        <div class="Accreditation-slide">
+                            <img src="assets/Approvals/i-guage.png" height="128" width="128" alt />
+                        </div>
+                        <div class="Accreditation-slide">
+                            <img src="assets/Approvals/vtu-logo.png" height="128" width="128" alt />
+                        </div>
                     </div>
                 </div>
             </div>

@@ -1,4 +1,4 @@
-const textHolders = document.querySelectorAll(".Transition-Left .text-holder");
+const textHolders = document.querySelectorAll(".Transition-Left .text-holder ");
 const options = {
   root: null,
   rootMargin: "0px",
