@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="css\index.css?v=<?php echo time(); ?>">
     <link rel="stylesheet" href="css\course.css?v=<?php echo time(); ?>">
     <link rel="stylesheet" href="css\footer.css?v=<?php echo time(); ?>">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
     <style>
         .spacer {
             height: 100vh;
@@ -132,7 +134,6 @@
                 </div>
             </div><!-- END Reveal panel section -->
         </section>
-        <script src="js/index.js"></script>
         <div class="Transition-Left">
             <div class="Accreditation-container">
                 <h1 class="AccreditationTitle">Accreditation & Rankings</h1>
@@ -196,10 +197,10 @@
                 </div>
             </div>
         </div>
-        <div class="Courses-container">
+        <div class="Courses-container fade-in">
             <h1>Academic Programs</h1>
             <h2>UNDERGRADUATE PROGRAMMES</h2>
-            <ul class="list">
+            <ul class="list fade-in">
                 <li class="item">
                     <div class="card">
                         <div class="card-title">CSE</div>
@@ -274,7 +275,7 @@
                 </li>
             </ul>
             <h2>POSTGRADUATE PROGRAMMES</h2>
-            <ul class="list">
+            <ul class="list fade-in">
                 <li class="item">
                     <div class="card">
                         <div class="card-title">MBA</div>
@@ -294,7 +295,7 @@
                     </div>
                 </li>
             </ul>
-            <div class="header-container">
+            <div class="header-container fade-in">
                 <h2>RESEARCH</h2>
                 <div class="background-image">
                     <div class="text-container">
@@ -310,6 +311,8 @@
         </div>
         <div class="spacer"></div>
         <div class="Footer"><?php include "src/footer.php"; ?></div>
+
+        <script src="js/index.js"></script>
 </body>
 
 </html>

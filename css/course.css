@@ -160,7 +160,7 @@
 
 .background-image {
   background-image: url("https://www.ucsf.edu/sites/default/files/styles/narrow_page_banner/public/2023-02/research-banner-v2%20%281%29.jpeg");
-  background-size: auto; /* Update this line */
+  background-size: 1200px auto; /* Update this line */
   background-position: center;
   background-repeat: no-repeat;
   height: 40vh; /* Adjust the height as needed */
