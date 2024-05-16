@@ -317,16 +317,63 @@
     <div>
         <div class="college-container">
             <div class="college-header">
-                <h1>COLLEGE LIFE</h1>
+                <h1>CAMPUS LIFE</h1>
                 <h2>Our thriving residential campus is home to a community of creative and accomplished people from
                     around the world.</h2>
                 <div class="college-header-image">
                     <img src="https://wallpapers.com/images/hd/taipei-city-art-4k-ultra-widescreen-dz45lm3r94lu42up.jpg"
                         alt="Header Image">
                 </div>
+
+                <hr>
+            <div class="cls">
+                <div class="cl1">
+                    <h1>600+ </h1>
+                    <p>Organized student groups </p>
+                </div>
+                <div class="cl2">
+                    <h1>81</h1>
+                    <p>Undergraduate student residences</p>
+
+                </div>
+                <div class="cl3">
+                    <h1>14000+</h1>
+                    <p>Students living on campus</p>
+
+                </div>
             </div>
+
+                
+                <hr>
+                <br>
+
+                <div class="clbutton">
+                    <button>More about Campus life</button>
+                </div>
+                <br>
+                <br>
+                <br>
+
+
+
+            </div>
+
+            
             <div class="college-section">
-                <h1>STUDENT LIFE</h1>
+                
+                <h1>CAMPUS NEWS</h1>
+                <br>
+                <br>
+                
+                <div class="news-text">
+                <p>Stories about people, research, and innovation across the Farm</p>
+                </div>
+
+                <br>
+                <br>
+                
+
+
                 <div class="college-grid-container">
                     <div class="college-grid-item">
                         <img src="https://images.unsplash.com/photo-1622431062669-ed38267b6de5?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI3NjYzNDJ8&ixlib=rb-4.0.3&q=85"
@@ -344,9 +391,24 @@
                         <p>Embark on an adventure and create lasting memories.</p>
                     </div>
                 </div>
+                <br>
+                <br>
+                <div class="clbutton">
+                    <button>More about Campus News</button>
+                </div>
             </div>
             <div class="college-section">
-                <h1>ARTS AND CULTURE</h1>
+                <h1>EXTRA CURRICULAR ACTIVITIES</h1>
+                <br>
+                
+                <div class="news-text">
+                <p>Stories about people, research, and innovation across the Farm</p>
+                </div>
+                <br>
+                <br>
+
+
+
                 <div class="college-grid-container">
                     <div class="college-grid-item">
                         <img src="https://images.unsplash.com/photo-1622431062669-ed38267b6de5?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI3NjYzNDJ8&ixlib=rb-4.0.3&q=85"
@@ -364,9 +426,25 @@
                         <p>Embark on an adventure and create lasting memories.</p>
                     </div>
                 </div>
+                <br>
+                <br>
+
+                <div class="clbutton">
+                    <button>More about Extra curricular activities</button>
+                </div>
             </div>
+            <br>
+            <br>
+
             <div class="college-section">
                 <h1>SPORTS AND FITNESS</h1>
+                <br>
+                <div class="news-text">
+                <p>Stories about people, research, and innovation across the Farm</p>
+                </div>
+                <br>
+                <br>
+
                 <div class="college-grid-container">
                     <div class="college-grid-item">
                         <img src="https://images.unsplash.com/photo-1622431062669-ed38267b6de5?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI3NjYzNDJ8&ixlib=rb-4.0.3&q=85"
@@ -384,7 +462,53 @@
                         <p>Embark on an adventure and create lasting memories.</p>
                     </div>
                 </div>
+                <br>
+                <br>
+
+                <div class="clbutton">
+                    <button>More about Sports and Fitness</button>
+                </div>
             </div>
+            <br>
+            <br>
+
+            <div class="college-section">
+                <h1>RESEARCH</h1>
+                <br>
+                <div class="news-text">
+                <p>Stories about people, research, and innovation across the Farm</p>
+                </div>
+                <br>
+                <br>
+                <hr>
+
+                <div class="cls">
+                <div class="cl1">
+                    <h1>15 Institutes </h1>
+                    <p>cross disciplinary boundaries </p>
+                </div>
+                <div class="cl2">
+                    <h1>20 Libraries</h1>
+                    <p>hold over 12 million items</p>
+
+                </div>
+                <div class="cl3">
+                    <h1>$1.98 Billion</h1>
+                    <p>sponsored research budget</p>
+
+                </div>
+                </div>
+            </div>
+            <hr>
+            <br>
+
+
+            <div class="clbutton">
+                    <button>More about Research</button>
+                </div>
+                <br>
+                <br>
+                
         </div>
     </div>
     <div class="campus-news-container">

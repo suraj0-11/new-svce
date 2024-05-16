@@ -17,6 +17,7 @@
 .college-header {
   text-align: center;
   margin-bottom: 40px;
+  background-color: antiquewhite;
 }
 
 .college-header h1 {
@@ -34,6 +35,7 @@
   height: auto;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 100px;
 }
 
 /* Section Styles */
@@ -42,9 +44,10 @@
 }
 
 .college-section h1 {
-  font-size: 28px;
+  font-size: 50px;
   margin-bottom: 20px;
   text-align: center;
+  color: black;
 }
 
 /* Grid Container Styles */
@@ -60,16 +63,73 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   padding: 20px;
   text-align: center;
+  transition: transform 0.3s ease-in-out; /* Add transition for smooth hover effect */
+}
+
+.college-grid-item:hover {
+  transform: translateY(-5px); /* Vertical translation on hover */
+  box-shadow: 0 5px 10px black; /* Stronger box shadow on hover */
 }
 
 .college-grid-item img {
   max-width: 100%;
   height: auto;
   border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Box shadow for images */
 }
 
 .college-grid-item p {
   margin-top: 10px;
   font-size: 16px;
   line-height: 1.5;
+}
+
+.college-header h1 {
+  font-size: 65px;
+  margin-top: 1px;
+  margin-bottom: 50px;
+  color: black;
+}
+
+.college-header h2 {
+  font-size: 25px;
+  margin-bottom: 20px;
+  color: black;
+}
+.cls {
+  display: flex;
+  justify-content: space-around;
+}
+
+.cl1, .cl2, .cl3 {
+  text-align: center;
+}
+.cl1 h1, .cl2 h1, .cl3 h1 {
+  margin-bottom: 0.25rem;
+}
+hr:first-of-type {
+  margin-bottom: 20px; /* Adjust the value as needed */
+}
+.cls{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.clbutton {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.clbutton button {
+  padding: 0.75rem 1.5rem;
+  font-size: 1.2rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+.news-text{
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
 }
