@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css\navbar.css?v=<?php echo time(); ?>">
     <link rel="stylesheet" href="css\animation.css?v=<?php echo time(); ?>">
     <link rel="stylesheet" href="css\index.css?v=<?php echo time(); ?>">
-    <link rel="stylesheet" href="css\course.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="css\courses.css?v=<?php echo time(); ?>">
     <link rel="stylesheet" href="css\campus-life.css?v=<?php echo time(); ?>">
     <link rel="stylesheet" href="css\campusnews.css?v=<?php echo time(); ?>">
     <link rel="stylesheet" href="css\footer.css?v=<?php echo time(); ?>">
@@ -272,106 +272,102 @@
             </div>
         </div>
     </div>
-    <div class="Courses-container fade-in">
-        <h1>Academic Programs</h1>
-        <h2>UNDERGRADUATE PROGRAMMES</h2>
-        <ul class="list fade-in">
-            <li class="item">
+    <section class="courses-section">
+    <div class="wrapper">
+        <h1>ACADEMIC PROGRAMS</h1>
+        <div class="cards_wrapper">
+            <button class="prev">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M19.5 12h-15m0 0l6.75 6.75M4.5 12l6.75-6.75" />
+                </svg>
+            </button>
+            <div class="cards">
                 <div class="card">
-                    <div class="card-title">CSE</div>
-                    <div class="card-info">Computer Science & Engineering</div>
-                    <div class="card-photo">
-                        <img class="card-img" src="assets/courses/cs.jpg" alt="Photo 1">
+                    <img src="./images/image1.webp" alt="">
+                    <div>
+                        <span class="card-title">CSE</span>
+                        <span class="card-subtitle">Computer Science & Engineering</span>
                     </div>
                 </div>
-            </li>
-            <li class="item">
                 <div class="card">
-                    <div class="card-title">CSE-AI</div>
-                    <div class="card-info">Computer Science & Engineering - Artificial Intelligence</div>
-                    <div class="card-photo">
-                        <img class="card-img" src="assets/courses/ai.jpg" alt="Photo 2">
+                    <img src="./images/image2.webp" alt="">
+                    <div>
+                        <span class="card-title">CSE-AI</span>
+                        <span class="card-subtitle">Computer Science & Engineering -<br> Artificial Intelligence</span>
                     </div>
                 </div>
-            </li>
-            <li class="item">
                 <div class="card">
-                    <div class="card-title">CSE-DS</div>
-                    <div class="card-info">Computer Science & Engineering - <br>Data Science</br></div>
-                    <div class="card-photo">
-                        <img class="card-img" src="assets/courses/ds.jpg" alt="Photo 3">
+                    <img src="./images/image3.webp" alt="">
+                    <div>
+                        <span class="card-title">CSE-DS</span>
+                        <span class="card-subtitle">Computer Science & Engineering -<br> Data Science</span>
                     </div>
                 </div>
-            </li>
-            <li class="item">
                 <div class="card">
-                    <div class="card-title">CSE-CY</div>
-                    <div class="card-info">Computer Science & Engineering-<br>Cyber Security</br></div>
-                    <div class="card-photo">
-                        <img class="card-img" src="assets/courses/cyber.jpg" alt="Photo 4">
+                    <img src="./images/image1.webp" alt="">
+                    <div>
+                        <span class="card-title">CSE-CY</span>
+                        <span class="card-subtitle">Computer Science & Engineering -<br> Cyber Security</span>
                     </div>
                 </div>
-            </li>
-            <li class="item">
                 <div class="card">
-                    <div class="card-title">ISE</div>
-                    <div class="card-info">Information Science & Engineering</div>
-                    <div class="card-photo">
-                        <img class="card-img" src="assets/courses/is.jpg" alt="Photo 5">
+                    <img src="./images/image2.webp" alt="">
+                    <div>
+                        <span class="card-title">ISE</span>
+                        <span class="card-subtitle">Information Science & Engineering</span>
                     </div>
                 </div>
-            </li>
-            <li class="item">
                 <div class="card">
-                    <div class="card-title">ECE</div>
-                    <div class="card-info">Electronics and Communication Engineering</div>
-                    <div class="card-photo">
-                        <img class="card-img" src="assets/courses/ece.jpg" alt="Photo 6">
+                    <img src="./images/image3.webp" alt="">
+                    <div>
+                        <span class="card-title">ECE</span>
+                        <span class="card-subtitle">Electronics & Communication <br>    Engineering</span>
                     </div>
                 </div>
-            </li>
-            <li class="item">
                 <div class="card">
-                    <div class="card-title">MECH</div>
-                    <div class="card-info">Mechanical Engineering</div>
-                    <div class="card-photo">
-                        <img class="card-img" src="assets/courses/mech.jpg" alt="Photo 7">
+                    <img src="./images/image1.webp" alt="">
+                    <div>
+                        <span class="card-title">ME</span>
+                        <span class="card-subtitle">Mechanical Engineering</span>
                     </div>
                 </div>
-            </li>
-            <li class="item">
                 <div class="card">
-                    <div class="card-title">CIVIL</div>
-                    <div class="card-info">Civil Engineering</div>
-                    <div class="card-photo">
-                        <img class="card-img" src="assets/courses/civil.png" alt="Photo 8">
+                    <img src="./images/image2.webp" alt="">
+                    <div>
+                        <span class="card-title">CE</span>
+                        <span class="card-subtitle">Civil Engineering</span>
                     </div>
                 </div>
-            </li>
-        </ul>
-        <h2>POSTGRADUATE PROGRAMMES</h2>
-        <ul class="list fade-in">
-            <li class="item">
                 <div class="card">
-                    <div class="card-title">MBA</div>
-                    <div class="card-info">Master of Business Administration</div>
-                    <div class="card-photo">
-                        <img class="card-img" src="assets/courses/mba.jpg" alt="Photo 1">
+                    <img src="./images/image3.webp" alt="">
+                    <div>
+                        <span class="card-title">MBA</span>
+                        <span class="card-subtitle">Masters of Business Administration</span>
                     </div>
                 </div>
-            </li>
-            <li class="item">
                 <div class="card">
-                    <div class="card-title">M.TECH</div>
-                    <div class="card-info">M.TECH - Structural Engineering</div>
-                    <div class="card-photo">
-                        <img class="card-img" src="assets/courses/mtech.png " alt="Photo 2">
+                    <img src="./images/image3.webp" alt="">
+                    <div>
+                        <span class="card-title">M.Tech</span>
+                        <span class="card-subtitle">Structural Engineering</span>
                     </div>
                 </div>
-            </li>
-        </ul>
+            </div>
+            <button class="next">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
+                </svg>
+            </button>
+        </div>
     </div>
-    <div></div>
+    </section>
+    
+    
+    <section class="college-section">
     <div>
         <div class="college-container">
             <div class="college-header">
@@ -690,6 +686,7 @@
             </article>
         </main>
     </div>
+    </section>
     <div>
         <section class="heading">
             <div class="content">
@@ -819,8 +816,9 @@
     </div>
     <div class="spacer"></div>
     <div class="Footer"><?php include "src/footer.php"; ?></div>
-
+    <script src="js/effect.js"></script>
     <script src="js/index.js"></script>
+    
 </body>
 
 </html>
