@@ -3,7 +3,7 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f5f5f5;
+  background-color: white;
   color: #333;
 }
 
@@ -17,7 +17,7 @@
 .college-header {
   text-align: center;
   margin-bottom: 40px;
-  background-color: antiquewhite;
+  background-color: white;
 }
 
 .college-header h1 {
@@ -101,16 +101,20 @@
   justify-content: space-around;
 }
 
-.cl1, .cl2, .cl3 {
+.cl1,
+.cl2,
+.cl3 {
   text-align: center;
 }
-.cl1 h1, .cl2 h1, .cl3 h1 {
+.cl1 h1,
+.cl2 h1,
+.cl3 h1 {
   margin-bottom: 0.25rem;
 }
 hr:first-of-type {
   margin-bottom: 20px; /* Adjust the value as needed */
 }
-.cls{
+.cls {
   margin-top: 30px;
   margin-bottom: 30px;
 }
@@ -128,7 +132,7 @@ hr:first-of-type {
   border-radius: 0.25rem;
   cursor: pointer;
 }
-.news-text{
+.news-text {
   font-size: 30px;
   text-align: center;
   font-weight: bold;
