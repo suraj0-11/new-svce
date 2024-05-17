@@ -4,11 +4,11 @@
   margin: 0;
   padding: 0;
   background-color: white;
-  color: #333;
+  color: black;
 }
 
 .college-container {
-  max-width: cover;
+  max-width: 1200px; /* Set a max-width for larger screens */
   margin: 0 auto;
   padding: 20px;
 }
@@ -53,7 +53,10 @@
 /* Grid Container Styles */
 .college-grid-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(250px, 1fr)
+  ); /* Responsive grid layout */
   grid-gap: 20px;
 }
 
@@ -68,7 +71,7 @@
 
 .college-grid-item:hover {
   transform: translateY(-5px); /* Vertical translation on hover */
-  box-shadow: 0 5px 10px black; /* Stronger box shadow on hover */
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3); /* Stronger box shadow on hover */
 }
 
 .college-grid-item img {
@@ -96,28 +99,35 @@
   margin-bottom: 20px;
   color: black;
 }
+
 .cls {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap; /* Allow flex items to wrap on smaller screens */
 }
 
 .cl1,
 .cl2,
 .cl3 {
   text-align: center;
+  margin-bottom: 20px; /* Add some spacing between flex items */
 }
+
 .cl1 h1,
 .cl2 h1,
 .cl3 h1 {
   margin-bottom: 0.25rem;
 }
+
 hr:first-of-type {
   margin-bottom: 20px; /* Adjust the value as needed */
 }
+
 .cls {
   margin-top: 30px;
   margin-bottom: 30px;
 }
+
 .clbutton {
   text-align: center;
   margin-top: 1rem;
@@ -132,8 +142,55 @@ hr:first-of-type {
   border-radius: 0.25rem;
   cursor: pointer;
 }
+
 .news-text {
   font-size: 30px;
   text-align: center;
   font-weight: bold;
+}
+
+/* Media Queries */
+
+/* For smaller screens */
+@media (max-width: 768px) {
+  .college-header h1 {
+    font-size: 28px;
+  }
+
+  .college-header h2 {
+    font-size: 18px;
+  }
+
+  .college-section h1 {
+    font-size: 36px;
+  }
+
+  .college-grid-container {
+    grid-template-columns: repeat(
+      auto-fit,
+      minmax(200px, 1fr)
+    ); /* Adjust grid layout for smaller screens */
+  }
+}
+
+/* For even smaller screens */
+@media (max-width: 480px) {
+  .college-header h1 {
+    font-size: 24px;
+  }
+
+  .college-header h2 {
+    font-size: 16px;
+  }
+
+  .college-section h1 {
+    font-size: 28px;
+  }
+
+  .college-grid-container {
+    grid-template-columns: repeat(
+      auto-fit,
+      minmax(150px, 1fr)
+    ); /* Adjust grid layout for even smaller screens */
+  }
 }

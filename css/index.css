@@ -192,7 +192,7 @@ figure {
 
 .item {
   position: relative;
-  background-color: #072f4a;
+  background-color: black;
 
   &:after {
     content: "";
@@ -208,16 +208,16 @@ figure {
       text-align: center;
       padding: 20px 20px;
       margin: 10px 10px;
-      color: #072f4a;
+      color: black;
     }
     .card-text {
       font-size: 1.5em;
       text-align: justify;
-      color: #072f4a;
+      color: black;
       padding: 10px 0; /* top and bottom padding */
     }
     .card-scroll {
-      border-left: #072f4a 15px solid;
+      border-left: black 15px solid;
       padding-left: 3em; /* Adjust this value to increase or decrease the spacing */
     }
 
@@ -530,7 +530,7 @@ figure {
     text-align: center;
     padding: 2em 2em;
     font-size: 3.5em;
-    color: #072f4a;
+    color: black;
   }
 
   .Accreditation-slider {
@@ -589,8 +589,8 @@ figure {
   }
 }
 :root {
-  --shade1: #334155;
-  --shade2: #0f172a;
+  --shade1: black;
+  --shade2: black;
   --primaryColor: var(--shade2);
   --backgroundColor: #ffffff;
   --backgroundColorDark: var(--primaryColor);
@@ -666,6 +666,7 @@ a:hover {
 }
 
 .marquees__wrapper {
+  background: black;
   padding: var(--paddingNormal) 0;
   display: flex;
   flex-direction: column;

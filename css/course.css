@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: #072f4a;
+  background-color: black;
 }
 .Courses-container h1 {
   text-align: center;
@@ -19,7 +19,7 @@
   color: white;
 }
 :root {
-  --body-bg: #072f4a;
+  --body-bg: black;
   --card-padding: 20px;
   --card-bdrs: 20px;
   --card-item-shadow: 0 0 0 5px var(--body-bg);
@@ -194,7 +194,7 @@
   display: inline-block;
   padding: 10px 20px;
   background-color: white;
-  color: #072f4a;
+  color: black;
   text-decoration: none;
   border-radius: 20px;
   font-size: 16px;

@@ -101,7 +101,7 @@ html:focus-within {
   font-family: var(--ff-primary);
   font-weight: var(--fw-400);
 
-  background-color: #072f4a;
+  background-color: black;
 }
 
 .campus-news-container h1,
@@ -167,7 +167,7 @@ html:focus-within {
   border-radius: 0.5rem;
   box-shadow: 2.5rem 3.75rem 3rem -3rem hsl(var(--clr-secondary-400) / 0.25);
   background-color: #ffffff;
-  color: #072f4a;
+  color: black;
 }
 
 .campus-news-testimonial:nth-child(1) {
