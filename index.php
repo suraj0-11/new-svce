@@ -27,37 +27,108 @@
 
 <body>
     <div class="navBar"><?php include "src/navbar.php"; ?></div>
-    <div class="scrollable-container">
-        <!-- Your scrollable content goes here -->
-        <div class="container">
-            <b>
-                <h1 class="moto">
-                    WE <br />
-                    DON'T JUST <br />
-                    DREAM IT, <br />
-                    <div class="engine">WE ENGINEER IT.</div>
-                </h1>
-            </b>
+    <div class="BannerContent">
+        <div class="pinMoto">
+            <div class="slideText" id="slide-text">
+                <b>
+                    <h1 class="moto">
+                        WE <br />
+                        DON'T JUST <br />
+                        DREAM IT, <br />
+                        <div class="engine">WE ENGINEER IT.</div>
+                    </h1>
+                </b>
+            </div>
+            <div class="backgroundDiv">
+                <video class="backgroundVideo" src="assets/video/video.mp4" autoplay loop muted></video>
+            </div>
         </div>
-        <section class="sectionMain">
-            <div class="panels" id="panelContainer">
-                <div class="panel one" id="panel_1">
-                    <div class="clip">
-                        <div class="video_clip">
-                            <video src="assets/video/video.mp4" autoplay loop muted></video>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="panel two" id="panel_2">
-                    <div class="clip">
-                        <img class="imageBg"
-                            src="https://svcengg.edu.in/wp-content/uploads/2022/11/vlcsnap-2020-08-10-00h20m48s262.jpg"
-                            alt="Background Image" />
-                    </div>
+        <div class="overflowDiv">
+            <div class="hero">
+                <div class="hero-inner" id="section-3">
+                    <figure></figure>
                 </div>
             </div>
-        </section>
+
+            <div class="contentText">
+                <div class="content__inner">
+                    <h1 class="content__title">Some Happy Little Text</h1>
+                    <h3 class="content__author">By Bob Ross</h3>
+                    <p>
+                        A thin paint will stick to a thick paint. The shadows are just
+                        like the highlights, but we're going in the opposite direction.
+                        When you do it your way you can go anywhere you choose.
+                    </p>
+                    <p>
+                        You have to make almighty decisions when you're the creator. When
+                        you buy that first tube of paint it gives you an artist license.
+                        There we go. The little tiny Tim easels will let you down. Let's
+                        just drop a little Evergreen right here.
+                    </p>
+                    <p>
+                        Trees grow in all kinds of ways. They're not all perfectly
+                        straight. Not every limb is perfect. I really believe that if you
+                        practice enough you could paint the 'Mona Lisa' with a two-inch
+                        brush. Just pretend you are a whisper floating across a mountain.
+                        This is your world, whatever makes you happy you can put in it. Go
+                        crazy.
+                    </p>
+                    <p>
+                        The first step to doing anything is to believe you can do it. See
+                        it finished in your mind before you ever start. We'll play with
+                        clouds today. Every single thing in the world has its own
+                        personality - and it is up to you to make friends with the little
+                        rascals. Don't kill all your dark areas - you need them to show
+                        the light. We don't want to set these clouds on fire. Every day I
+                        learn.
+                    </p>
+                    <blockquote>
+                        When you do it your way you can go anywhere you choose.
+                    </blockquote>
+                    <p>
+                        Let's get wild today. Once you learn the technique, ohhh! Turn you
+                        loose on the world; you become a tiger. This is probably the
+                        greatest thing to happen in my life - to be able to share this
+                        with you.
+                    </p>
+                    <p>
+                        I'm a water fanatic. I love water. This is gonna be a happy little
+                        seascape. Put light against light - you have nothing. Put dark
+                        against dark - you have nothing. It's the contrast of light and
+                        dark that each give the other one meaning. Let's put a touch more
+                        of the magic here. I'm going to mix up a little color. We'll use
+                        Van Dyke Brown, Permanent Red, and a little bit of Prussian Blue.
+                    </p>
+                    <p>
+                        And that's when it becomes fun - you don't have to spend your time
+                        thinking about what's happening - you just let it happen. Let all
+                        these things just sort of happen. Don't fight it, use what
+                        happens. Let's put some happy little bushes on the other side now.
+                    </p>
+                    <blockquote>Don't fight it, use what happens.</blockquote>
+                    <p>
+                        If we're going to have animals around we all have to be concerned
+                        about them and take care of them. I'll go over the colors one more
+                        time that we use: Titanium white, Thalo green, Prussian blue, Van
+                        Dyke brown, Alizarin crimson, Sap green, Cad yellow, and Permanent
+                        red. Anytime you learn something your time and energy are not
+                        wasted. This is your world. We want to use a lot pressure while
+                        using no pressure at all. Just let go - and fall like a little
+                        waterfall.
+                    </p>
+                    <p>
+                        Let's build some happy little clouds up here. Everyone is going to
+                        see things differently - and that's the way it should be. Let's do
+                        that again. A tree needs to be your friend if you're going to
+                        paint him. That's why I paint - because I can create the kind of
+                        world I want - and I can make this world as happy as I want it.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="scrollable-container">
+        <!-- Your scrollable content goes here -->
 
         <section class="cards-container">
 
@@ -299,19 +370,6 @@
                 </div>
             </li>
         </ul>
-        <div class="header-container fade-in">
-            <h2>RESEARCH</h2>
-            <div class="background-image">
-                <div class="text-container">
-                    <p>Explore our cutting-edge research initiatives.</p>
-                </div>
-            </div>
-
-
-            <div class="btn-container">
-                <a href="#" class="btn">Know More</a>
-            </div>
-        </div>
     </div>
     <div></div>
     <div>
@@ -326,24 +384,24 @@
                 </div>
 
                 <hr>
-            <div class="cls">
-                <div class="cl1">
-                    <h1>600+ </h1>
-                    <p>Organized student groups </p>
-                </div>
-                <div class="cl2">
-                    <h1>81</h1>
-                    <p>Undergraduate student residences</p>
+                <div class="cls">
+                    <div class="cl1">
+                        <h1>600+ </h1>
+                        <p>Organized student groups </p>
+                    </div>
+                    <div class="cl2">
+                        <h1>81</h1>
+                        <p>Undergraduate student residences</p>
 
-                </div>
-                <div class="cl3">
-                    <h1>14000+</h1>
-                    <p>Students living on campus</p>
+                    </div>
+                    <div class="cl3">
+                        <h1>14000+</h1>
+                        <p>Students living on campus</p>
 
+                    </div>
                 </div>
-            </div>
 
-                
+
                 <hr>
                 <br>
 
@@ -358,20 +416,20 @@
 
             </div>
 
-            
+
             <div class="college-section">
-                
+
                 <h1>CAMPUS NEWS</h1>
                 <br>
                 <br>
-                
+
                 <div class="news-text">
-                <p>Stories about people, research, and innovation across the Farm</p>
+                    <p>Stories about people, research, and innovation across the Farm</p>
                 </div>
 
                 <br>
                 <br>
-                
+
 
 
                 <div class="college-grid-container">
@@ -400,9 +458,9 @@
             <div class="college-section">
                 <h1>EXTRA CURRICULAR ACTIVITIES</h1>
                 <br>
-                
+
                 <div class="news-text">
-                <p>Stories about people, research, and innovation across the Farm</p>
+                    <p>Stories about people, research, and innovation across the Farm</p>
                 </div>
                 <br>
                 <br>
@@ -440,7 +498,7 @@
                 <h1>SPORTS AND FITNESS</h1>
                 <br>
                 <div class="news-text">
-                <p>Stories about people, research, and innovation across the Farm</p>
+                    <p>Stories about people, research, and innovation across the Farm</p>
                 </div>
                 <br>
                 <br>
@@ -476,27 +534,27 @@
                 <h1>RESEARCH</h1>
                 <br>
                 <div class="news-text">
-                <p>Stories about people, research, and innovation across the Farm</p>
+                    <p>Stories about people, research, and innovation across the Farm</p>
                 </div>
                 <br>
                 <br>
                 <hr>
 
                 <div class="cls">
-                <div class="cl1">
-                    <h1>15 Institutes </h1>
-                    <p>cross disciplinary boundaries </p>
-                </div>
-                <div class="cl2">
-                    <h1>20 Libraries</h1>
-                    <p>hold over 12 million items</p>
+                    <div class="cl1">
+                        <h1>15 Institutes </h1>
+                        <p>cross disciplinary boundaries </p>
+                    </div>
+                    <div class="cl2">
+                        <h1>20 Libraries</h1>
+                        <p>hold over 12 million items</p>
 
-                </div>
-                <div class="cl3">
-                    <h1>$1.98 Billion</h1>
-                    <p>sponsored research budget</p>
+                    </div>
+                    <div class="cl3">
+                        <h1>$1.98 Billion</h1>
+                        <p>sponsored research budget</p>
 
-                </div>
+                    </div>
                 </div>
             </div>
             <hr>
@@ -504,11 +562,11 @@
 
 
             <div class="clbutton">
-                    <button>More about Research</button>
-                </div>
-                <br>
-                <br>
-                
+                <button>More about Research</button>
+            </div>
+            <br>
+            <br>
+
         </div>
     </div>
     <div class="campus-news-container">

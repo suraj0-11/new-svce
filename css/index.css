@@ -1,9 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 
 /* General Styles */
-body {
-  overflow-x: hidden;
-}
+
 * {
   scrollbar-width: none;
   box-sizing: border-box;
@@ -13,120 +11,183 @@ body {
 ::-webkit-scrollbar {
   display: none;
 }
-
-.engine {
-  color: #0088cc;
+* {
+  box-sizing: border-box;
 }
 
-/* Section Main */
-.sectionMain {
-  height: 100vh;
-  overflow-x: hidden;
-  overflow-y: auto;
-  -ms-overflow-style: none;
-  scrollbar-width: none;
+.BannerContent {
+  overflow-x: hidden; /* Added to prevent horizontal overflow */
+  margin: 0;
+  padding: 0;
 }
 
-.sectionMain::-webkit-scrollbar {
-  width: 0.5rem;
+.overflowDiv {
+  margin: 0;
+  padding: 0;
 }
 
-.sectionMain::-webkit-scrollbar-thumb {
-  background-color: rgba(0, 0, 0, 0.3);
-  border-radius: 0.25rem;
+.contentText p {
+  font-size: 1.25rem;
+  line-height: 1.5;
 }
 
-.panels {
-  overflow: scroll;
-  height: 100vh;
-  width: 100vw;
-  scroll-snap-type: y mandatory;
-  overflow-x: hidden;
+blockquote {
+  position: relative;
+  padding-left: 1.5rem;
+  font-size: 2rem;
+  line-height: 1.25;
+  letter-spacing: -0.05rem;
 }
 
-.panel {
-  scroll-snap-align: start;
-  width: 100%;
-  height: 100vh;
-  object-fit: cover;
-  display: flex;
-  justify-content: center;
-}
-
-.clip {
-  position: sticky;
-  height: 0;
-  width: 100%;
-  top: 0;
-  margin-bottom: 0;
-}
-
-.video_clip {
+blockquote:before {
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 6px;
+  height: 100%;
+  background-color: #a9dfbf;
+  border-radius: 60px;
+}
+
+figure {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
   height: 100vh;
-  z-index: 1;
-  pointer-events: none;
+  background-image: url("../assets/svce-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  z-index: -1; /* Added z-index to position the figure behind other elements */
+}
+
+.hero {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+.hero-inner {
+  position: absolute;
   overflow: hidden;
-}
-
-video {
-  z-index: 1;
   width: 100vw;
   height: 100vh;
-  min-height: 100vh;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  object-fit: cover;
-  transform: translate(-50%, -50%);
+  clip: rect(0, auto, auto, 0);
 }
 
-.imageBg {
+@supports (-webkit-overflow-scrolling: touch) {
+  .hero-inner {
+    clip: unset;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  }
+}
+
+@media (min-width: 1200px) {
+  .hero__title {
+    font-size: 6rem;
+  }
+}
+
+.contentText {
+  background-color: #fff;
+  position: relative;
+  margin: 0;
+  padding: 2em;
+}
+
+.contentText:before {
+  content: "";
+  display: block;
   position: absolute;
+  top: -100px;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  z-index: 6;
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+.content__inner {
+  margin: 0 auto;
+  max-width: 700px;
+}
+
+.content__inner > * + * {
+  margin-top: 1.5rem;
+}
+
+.content__inner > blockquote {
+  margin: 3rem 0;
+}
+
+.content__title {
+  font-size: 3rem;
+  line-height: 1.25;
+  letter-spacing: -0.125rem;
+  text-align: center;
+}
+
+@media (min-width: 600px) {
+  .content__title {
+    font-size: 4rem;
+  }
+}
+
+.content__author {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 4rem;
+  width: 100%;
+  font-size: 1.5rem;
+  letter-spacing: -0.125rem;
+  text-align: center;
+}
+
+.content__author:before,
+.content__author:after {
+  content: "";
+  flex: 1;
+  height: 2px;
+  background-color: #a9dfbf;
+}
+
+.content__author:before {
+  margin-right: 1rem;
+}
+
+.content__author:after {
+  margin-left: 1rem;
+}
+
+.backgroundVideo {
+  position: relative;
   top: 0;
   left: 0;
   width: 100vw;
   height: 100vh;
   z-index: 1;
-  pointer-events: none;
-  overflow-x: hidden;
+  object-fit: cover;
+  background-color: transparent;
 }
-
 .moto {
   position: absolute;
-  top: 50%;
+  top: 50dvh;
   left: 20%;
   transform: translate(-50%, -50%);
   z-index: 3;
-  color: #ffffff;
+  color: #fff;
   font-size: 60px;
-  font-family: "Rubik", sans-serif;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  /* -webkit-text-stroke: 1px #000000; */
+  z-index: 9;
 }
 
-/* Media Queries */
-@media (max-width: 768px) {
-  .moto {
-    font-size: 40px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-
-  video,
-  .imageBg {
-    height: auto;
-    min-height: 100vh;
-  }
-}
-
-@media (max-width: 480px) {
-  .moto {
-    font-size: 30px;
-  }
+.engine {
+  color: #0088cc;
 }
 
 .item {

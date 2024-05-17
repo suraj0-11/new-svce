@@ -1,3 +1,12 @@
+gsap.registerPlugin(ScrollTrigger);
+ScrollTrigger.create({
+  trigger: ".pinMoto",
+  start: "top top",
+  end: "bottom +=50vh",
+  pin: ".moto",
+  markers: false,
+});
+
 const textHolders = document.querySelectorAll(".Transition-Left .text-holder ");
 const options = {
   root: null,
@@ -35,47 +44,14 @@ fadeInElements.forEach((element) => {
       y: 0,
       scrollTrigger: {
         trigger: element,
-        start: "top 70%",
+        start: "top bottom",
       },
     }
   );
 });
 
 // Background image animation
-const backgroundImage = document.querySelector(".background-image");
-const textContainer = document.querySelector(".text-container");
 
-gsap.fromTo(
-  backgroundImage,
-  {
-    scale: 1.2,
-  },
-  {
-    scale: 1,
-    scrollTrigger: {
-      trigger: backgroundImage,
-      start: "top 80%",
-      end: "bottom top",
-      scrub: true,
-    },
-  }
-);
-
-gsap.fromTo(
-  textContainer,
-  {
-    opacity: 0,
-  },
-  {
-    opacity: 1,
-    scrollTrigger: {
-      trigger: backgroundImage,
-      start: "top 80%",
-      end: "bottom top",
-      scrub: true,
-    },
-  }
-);
 const marquees = Array.from(document.querySelectorAll(".marquee"));
 
 class Marquee {
