@@ -58,6 +58,19 @@
   margin-bottom: 40px;
 }
 
+.resource-section {
+  text-align: center;
+  margin-bottom: 40px;
+  background-color: white;
+}
+
+.resource-section h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: black;
+}
+
 .college-section h1 {
   font-size: 50px;
   margin-bottom: 20px;
@@ -119,6 +132,13 @@
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap; /* Allow flex items to wrap on smaller screens */
+}
+
+.research {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; /* Allow flex items to wrap on smaller screens */
+  background-color: white;
 }
 
 .cl1,

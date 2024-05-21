@@ -411,8 +411,7 @@
 
                     <div class="college-grid-container">
                         <div class="college-grid-item">
-                            <img src="https://images.unsplash.com/photo-1622431062669-ed38267b6de5?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI3NjYzNDJ8&ixlib=rb-4.0.3&q=85"
-                                alt="Image 1">
+                            <img src="images/ncc.jpg" alt="Image 1">
                             <p>Explore the vibrant city life and bustling streets.</p>
                         </div>
                         <div class="college-grid-item">
@@ -421,8 +420,7 @@
                             <p>Discover the beauty of nature in its purest form.</p>
                         </div>
                         <div class="college-grid-item">
-                            <img src="https://images.unsplash.com/photo-1592417817038-d13fd7342605?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI3NjU5NTV8&ixlib=rb-4.0.3&q=85"
-                                alt="Image 3">
+                            <img src="images/computer.jpg" alt="Image 3">
                             <p>Embark on an adventure and create lasting memories.</p>
                         </div>
                     </div>
@@ -447,18 +445,15 @@
 
                     <div class="college-grid-container">
                         <div class="college-grid-item">
-                            <img src="https://images.unsplash.com/photo-1622431062669-ed38267b6de5?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI3NjYzNDJ8&ixlib=rb-4.0.3&q=85"
-                                alt="Image 1">
+                            <img src="images/footballhome.jpg" alt="Image 1">
                             <p>Explore the vibrant city life and bustling streets.</p>
                         </div>
                         <div class="college-grid-item">
-                            <img src="https://images.unsplash.com/photo-1491172700640-4f1a131a3670?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI3NjY2ODV8&ixlib=rb-4.0.3&q=85"
-                                alt="Image 2">
+                            <img src="images/ground.jpg" alt="Image 2">
                             <p>Discover the beauty of nature in its purest form.</p>
                         </div>
                         <div class="college-grid-item">
-                            <img src="https://images.unsplash.com/photo-1592417817038-d13fd7342605?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI3NjU5NTV8&ixlib=rb-4.0.3&q=85"
-                                alt="Image 3">
+                            <img src="images/cricket.jpg" alt="Image 3">
                             <p>Embark on an adventure and create lasting memories.</p>
                         </div>
                     </div>
@@ -470,47 +465,11 @@
                     </div>
                 </div>
                 <br>
-                <br>
-
-                <div class="college-section">
-                    <h1>RESEARCH</h1>
-                    <br>
-                    <div class="news-text">
-                        <p>Stories about people, research, and innovation across the Farm</p>
-                    </div>
-                    <br>
-                    <br>
-                    <hr>
-
-                    <div class="cls">
-                        <div class="cl1">
-                            <h1>15 Institutes </h1>
-                            <p>cross disciplinary boundaries </p>
-                        </div>
-                        <div class="cl2">
-                            <h1>20 Libraries</h1>
-                            <p>hold over 12 million items</p>
-
-                        </div>
-                        <div class="cl3">
-                            <h1>$1.98 Billion</h1>
-                            <p>sponsored research budget</p>
-
-                        </div>
-                    </div>
-                </div>
-                <hr>
-                <br>
-
-
-                <div class="clbutton">
-                    <button>More about Research</button>
-                </div>
-                <br>
-                <br>
 
             </div>
         </div>
+
+
         <div class="campus-news-container">
             <h1 class="campus-news-heading">
                 <center>CAMPUS NEWS</center>
@@ -744,6 +703,47 @@
 
             </div>
         </section>
+        <br>
+        <br>
+
+        <div class="resource-section">
+            <br>
+            <br>
+            <br>
+            <h1>RESEARCH</h1>
+            <br>
+            <div class="news-text">
+                <p>Stories about people, research, and innovation across the Farm</p>
+            </div>
+            <br>
+            <br>
+            <hr>
+
+            <div class="research">
+                <div class="cl1">
+                    <h1>15 Institutes </h1>
+                    <p>cross disciplinary boundaries </p>
+                </div>
+                <div class="cl2">
+                    <h1>20 Libraries</h1>
+                    <p>hold over 12 million items</p>
+
+                </div>
+                <div class="cl3">
+                    <h1>$1.98 Billion</h1>
+                    <p>sponsored research budget</p>
+
+                </div>
+
+            </div>
+            <div class="clbutton">
+                <button>More about Research</button>
+            </div>
+            <br>
+            <br>
+
+        </div>
+
     </div>
     <!-- <div class="spacer"></div> -->
     <div class="Footer"><?php include "src/footer.php"; ?></div>
