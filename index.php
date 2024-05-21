@@ -85,8 +85,7 @@
                 <div class="Transition-Left">
                     <div class="item">
                         <div class="image-holder">
-                            <img
-                                src="https://images.pexels.com/photos/19557055/pexels-photo-19557055/free-photo-of-snowy-peak-of-the-pic-du-midi-dossau-mountain.jpeg?auto=compress&cs=tinysrgb&w=600">
+                            <img src="assets\bgimages\4 (38).jpg">
                         </div>
 
                         <div class="text-holder">
@@ -106,8 +105,7 @@
                     <div class="item">
 
                         <div class="image-holder">
-                            <img
-                                src="https://images.pexels.com/photos/19557055/pexels-photo-19557055/free-photo-of-snowy-peak-of-the-pic-du-midi-dossau-mountain.jpeg?auto=compress&cs=tinysrgb&w=600">
+                            <img src="assets\bgimages\4 (51).jpg">
                         </div>
 
                         <div class="text-holder">
@@ -124,8 +122,7 @@
                     <div class="item">
 
                         <div class="image-holder">
-                            <img
-                                src="https://images.pexels.com/photos/14705563/pexels-photo-14705563.jpeg?auto=compress&cs=tinysrgb&w=600">
+                            <img src="assets\bgimages\DSC08211_2_3_4_5.jpg">
                         </div>
 
                         <div class="text-holder">
@@ -325,8 +322,7 @@
                     <h2>Our thriving residential campus is home to a community of creative and accomplished people from
                         around the world.</h2>
                     <div class="college-header-image">
-                        <img src="https://wallpapers.com/images/hd/taipei-city-art-4k-ultra-widescreen-dz45lm3r94lu42up.jpg"
-                            alt="Header Image">
+                        <img src="assets\bgimages\IMG_9641.jpg" alt="Header Image">
                     </div>
 
                     <hr>
@@ -663,36 +659,28 @@
             <div class="marquee" data-duration="5" data-reverse="true">
                 <div class="marquee__group">
                     <div class="item1">
-                        <img src="https://is2-ssl.mzstatic.com/image/thumb/GT66HoV8VJL1IZwaqos_TQ/756x425.jpg"
-                            alt="Ted Lasso" srcset="">
+                        <img src="assets/logos/Microsoft-Logo-PNG.png" alt="Ted Lasso" srcset="">
                     </div>
                     <div class="item1">
-                        <img src="https://is1-ssl.mzstatic.com/image/thumb/zRCSBlp0LjwClRXsjyDNYQ/756x425.jpg"
-                            alt="CODA" srcset="">
+                        <img src="assets/logos/wipro.png" alt="CODA" srcset="">
                     </div>
                     <div class="item1">
-                        <img src="https://is1-ssl.mzstatic.com/image/thumb/vPnF3gIE_xEMoXPI1SyluA/756x425.jpg"
-                            alt="Prehistoric Planet" srcset="">
+                        <img src="assets/logos/ey.png" alt="Prehistoric Planet" srcset="">
                     </div>
                     <div class="item1">
-                        <img src="https://is4-ssl.mzstatic.com/image/thumb/GwU4Qm-NLXeNi7M5bxpX-g/756x425.jpg"
-                            alt="The Long Game" srcset="">
+                        <img src="assets/logos/amazon.png" alt="The Long Game" srcset="">
                     </div>
                     <div class="item1">
-                        <img src="https://is3-ssl.mzstatic.com/image/thumb/d6sprLP3-1W-OlED4ZlzOg/756x425.jpg"
-                            alt="Sidney" srcset="">
+                        <img src="assets/logos/infosys.jpg" alt="Sidney" srcset="">
                     </div>
                     <div class="item1">
-                        <img src="https://is5-ssl.mzstatic.com/image/thumb/PWsYggMXgU6kQrxaB3MZPQ/756x425.jpg"
-                            alt="Shantaram" srcset="">
+                        <img src="assets/logos/TCS logo.jpg" alt="Shantaram" srcset="">
                     </div>
                     <div class="item1">
-                        <img src="https://is3-ssl.mzstatic.com/image/thumb/kVTKGnVvCdFlB1sZeKa8YQ/756x425.jpg"
-                            alt="Suspicion">
+                        <img src="assets\logos\hcl.png" alt="Suspicion">
                     </div>
                     <div class="item1">
-                        <img src="https://is5-ssl.mzstatic.com/image/thumb/7SeRlnCzKlgeqrg6-ixkig/738x416.jpg"
-                            alt="SEE">
+                        <img src="assets\logos\Rakuten.jpg" alt="SEE">
                     </div>
                 </div>
 
@@ -700,36 +688,28 @@
             <div class="marquee" data-duration="5">
                 <div class="marquee__group">
                     <div class="item1">
-                        <img src="https://is5-ssl.mzstatic.com/image/thumb/ewq0-5ZSairVdRtcg43s0w/738x416.jpg"
-                            alt="Five Days at Memorial" srcset="">
+                        <img src="httpsassets\logos\amazon.png" alt="Five Days at Memorial" srcset="">
                     </div>
                     <div class="item1">
-                        <img src="https://is3-ssl.mzstatic.com/image/thumb/AWDRdQz0nepFpnsUNiTDuw/738x416.jpg"
-                            alt="The Morning Show" srcset="">
+                        <img src="assets\logos\hcl.png" alt="The Morning Show" srcset="">
                     </div>
                     <div class="item1">
-                        <img src="https://is1-ssl.mzstatic.com/image/thumb/oANBVngpEJDvHRhdyozySA/738x416.jpg"
-                            alt="Grey Hound" srcset="">
+                        <img src="assets\logos\Microsoft-Logo-PNG.png" alt="Grey Hound" srcset="">
                     </div>
                     <div class="item1">
-                        <img src="https://is4-ssl.mzstatic.com/image/thumb/L4WNJNV3nbmyAL6MQSeGuw/738x416.jpg"
-                            alt="Defending Jacob" srcset="">
+                        <img src="assets\logos\TCS logo.jpg" alt="Defending Jacob" srcset="">
                     </div>
                     <div class="item1">
-                        <img src="https://is2-ssl.mzstatic.com/image/thumb/qYEYYvFXN2O4zEuCcBSbjw/738x416.jpg"
-                            alt="Foundation" srcset="">
+                        <img src="assets\logos\Wipro.png" alt="Foundation" srcset="">
                     </div>
                     <div class="item1">
-                        <img src="https://is3-ssl.mzstatic.com/image/thumb/3iAbZQ4pznOpDRenkvOhNA/738x416.jpg"
-                            alt="Dickinson" srcset="">
+                        <img src="assets\logos\infosys.jpg" alt="Dickinson" srcset="">
                     </div>
                     <div class="item1">
-                        <img src="https://is2-ssl.mzstatic.com/image/thumb/6tJakyTEtS0vrgdc9POZpg/738x416.jpg"
-                            alt="Servant">
+                        <img src="assets\logos" alt="Servant">
                     </div>
                     <div class="item1">
-                        <img src="https://is1-ssl.mzstatic.com/image/thumb/mqP1mK0HzuFhIBXsd_Q_SA/738x416.jpg"
-                            alt="Home Before Dark">
+                        <img src="assets\logos\Rakuten.jpg" alt="Home Before Dark">
                     </div>
                 </div>
 
@@ -737,36 +717,28 @@
             <div class="marquee" data-duration="7">
                 <div class="marquee__group">
                     <div class="item1">
-                        <img src="https://is2-ssl.mzstatic.com/image/thumb/GT66HoV8VJL1IZwaqos_TQ/756x425.jpg"
-                            alt="Ted Lasso" srcset="">
+                        <img src="assets\logos\ey.png" alt="Ted Lasso" srcset="">
                     </div>
                     <div class="item1">
-                        <img src="https://is1-ssl.mzstatic.com/image/thumb/zRCSBlp0LjwClRXsjyDNYQ/756x425.jpg"
-                            alt="CODA" srcset="">
+                        <img src="assets\logos\wipro.png" alt="CODA" srcset="">
                     </div>
                     <div class="item1">
-                        <img src="https://is1-ssl.mzstatic.com/image/thumb/vPnF3gIE_xEMoXPI1SyluA/756x425.jpg"
-                            alt="Prehistoric Planet" srcset="">
+                        <img src="assets\logos\amazon.png" alt="Prehistoric Planet" srcset="">
                     </div>
                     <div class="item1">
-                        <img src="https://is4-ssl.mzstatic.com/image/thumb/GwU4Qm-NLXeNi7M5bxpX-g/756x425.jpg"
-                            alt="The Long Game" srcset="">
+                        <img src="assets\logos\infosys.jpg" alt="The Long Game" srcset="">
                     </div>
                     <div class="item1">
-                        <img src="https://is3-ssl.mzstatic.com/image/thumb/d6sprLP3-1W-OlED4ZlzOg/756x425.jpg"
-                            alt="Sidney" srcset="">
+                        <img src="assets\logos\hcl.png" alt="Sidney" srcset="">
                     </div>
                     <div class="item1">
-                        <img src="https://is5-ssl.mzstatic.com/image/thumb/PWsYggMXgU6kQrxaB3MZPQ/756x425.jpg"
-                            alt="Shantaram" srcset="">
+                        <img src="assets\logos\TCS logo.jpg" alt="Shantaram" srcset="">
                     </div>
                     <div class="item1">
-                        <img src="https://is3-ssl.mzstatic.com/image/thumb/kVTKGnVvCdFlB1sZeKa8YQ/756x425.jpg"
-                            alt="Suspicion">
+                        <img src="assets\logos\Microsoft-Logo-PNG.png" alt="Suspicion">
                     </div>
                     <div class="item1">
-                        <img src="https://is5-ssl.mzstatic.com/image/thumb/7SeRlnCzKlgeqrg6-ixkig/738x416.jpg"
-                            alt="SEE">
+                        <img src="assets\logos\Rakuten.jpg" alt="SEE">
                     </div>
                 </div>
 
