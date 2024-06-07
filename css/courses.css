@@ -62,10 +62,17 @@ img {
 
 .prev {
   left: -2rem;
+  color: #ffffff; 
+    background-color: #0088cc  !important;
+
 }
+
+
 
 .next {
   right: -2rem;
+  color: #ffffff; 
+    background-color: #0088cc  !important;
 }
 
 .cards {
