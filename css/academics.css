@@ -1,34 +1,35 @@
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
   width: 100%;
 }
 
 .main-container {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 .aca-img {
+  width: 100%;
   height: auto;
+
   background-color: black;
 }
 
 .aca-bgimg {
+
+
   height: 50vh;
+  
   width: 100%;
   object-fit: cover;
 }
 
-.spacer {
-  background-color: black;
-  height: 100vh;
-}
-
 .aca-article {
-  padding: 3rem;
-  margin: 5%;
+  padding: 1.5rem;
+  margin: 2%;
 }
 
 .aca-overview,
@@ -36,45 +37,42 @@ html, body {
 .aca-peos,
 .aca-pos,
 .aca-psos,
-.aca-fees {
+.aca-fees,
+.aca-grid2 {
   display: grid;
-  grid-template-columns: 3fr 1fr;
+  grid-template-columns: 1fr;
   grid-gap: 20px;
-  padding: 20px;
+  padding: 15px;
 }
 
 .aca-grid-item {
   background-color: #f0f0f0;
-  padding: 20px;
+  padding: 15px;
   border-radius: 5px;
-}
-
-.aca-grid2 {
-  display: grid;
-  grid-template-columns: 3fr 1fr;
-  grid-gap: 20px;
-  padding: 20px;
-  background-color: black;
 }
 
 .aca-navbar {
   position: sticky;
-  top: 8vh;
+  top: 0;
+  width: 100%;
   display: flex;
   justify-content: center;
   background-color: black;
-  z-index: 100;
+  z-index: 9;
+  padding: 10px 0;
 }
 
 #aca-navLinks {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   list-style: none;
   padding: 0;
-  margin: 10px;
+  margin: 0;
 }
 
 .aca-navLists {
-  margin: 0 10px;
+  margin: 5px;
   padding: 5px 10px;
   border-radius: 20px;
   transition: background-color 0.3s ease;
@@ -84,13 +82,86 @@ html, body {
 .aca-navLists a {
   text-decoration: none;
   color: inherit;
+  white-space: nowrap;
+  font-size: 0.9rem;
 }
 
 .aca-navLists:hover {
   background-color: #0088cc;
 }
 
-@media screen and (max-width: 768px) {
+/* Small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .aca-navbar {
+    top: 8.5vh;
+  }
+}
+
+/* Medium devices (tablets, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .aca-navbar {
+    top: 9vh;
+  }
+  .aca-overview,
+  .aca-course,
+  .aca-peos,
+  .aca-pos,
+  .aca-psos,
+  .aca-fees,
+  .aca-grid2 {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* iPad mini specific (768x1024) */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  .aca-navbar {
+    top: 9.2vh;
+  }
+  .aca-overview,
+  .aca-course,
+  .aca-peos,
+  .aca-pos,
+  .aca-psos,
+  .aca-fees,
+  .aca-grid2 {
+    grid-template-columns: 2fr 1fr;
+  }
+  .aca-article {
+    padding: 2rem;
+    margin: 3%;
+  }
+  .aca-navLists a {
+    font-size: 1rem;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .aca-navbar {
+    top: 5.8vh;
+  }
+  .aca-overview,
+  .aca-course,
+  .aca-peos,
+  .aca-pos,
+  .aca-psos,
+  .aca-fees,
+  .aca-grid2 {
+    grid-template-columns: 3fr 1fr;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .aca-navbar {
+    top: 10vh;
+  }
+}
+
+/* For Surface Duo and similar dual-screen devices */
+@media (min-width: 540px) and (max-width: 720px) and (orientation: portrait),
+  (min-width: 720px) and (max-width: 1114px) and (orientation: landscape) {
   .aca-overview,
   .aca-course,
   .aca-peos,
@@ -100,18 +171,17 @@ html, body {
   .aca-grid2 {
     grid-template-columns: 1fr;
   }
-  
-  .aca-article {
-    padding: 2rem;
-    margin: 3%;
+  .aca-navbar {
+    top: 9.5vh;
   }
-  
-  #aca-navLinks {
-    flex-wrap: wrap;
-    justify-content: center;
+}
+
+/* For foldable devices in folded state */
+@media (max-width: 320px) {
+  .aca-navLists a {
+    font-size: 0.8rem;
   }
-  
-  .aca-navLists {
-    margin: 5px;
+  .aca-navbar {
+    top: 10.8vh;
   }
 }
