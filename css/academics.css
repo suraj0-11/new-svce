@@ -1,13 +1,17 @@
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
   width: 100%;
 }
 
 .main-container {
   max-width: 1200px;
   margin: 0 auto;
+}
+* {
+  scrollbar-width: none;
+  box-sizing: border-box;
 }
 
 .aca-img {
@@ -59,22 +63,24 @@ html, body {
 
 .aca-navbar {
   position: sticky;
-  top: 8vh;
+  top: 11vh;
+  width: 100%;
   display: flex;
   justify-content: center;
   background-color: black;
-  z-index: 100;
+  z-index: 9;
 }
 
 #aca-navLinks {
   display: flex;
+  flex-wrap: wrap;
   list-style: none;
   padding: 0;
   margin: 10px;
 }
 
 .aca-navLists {
-  margin: 0 10px;
+  margin: 5px;
   padding: 5px 10px;
   border-radius: 20px;
   transition: background-color 0.3s ease;
@@ -84,13 +90,15 @@ html, body {
 .aca-navLists a {
   text-decoration: none;
   color: inherit;
+  white-space: nowrap;
 }
 
 .aca-navLists:hover {
   background-color: #0088cc;
 }
 
-@media screen and (max-width: 768px) {
+/* Mobile devices */
+@media screen and (max-width: 767px) {
   .aca-overview,
   .aca-course,
   .aca-peos,
@@ -100,18 +108,64 @@ html, body {
   .aca-grid2 {
     grid-template-columns: 1fr;
   }
-  
+
+  .aca-article {
+    padding: 1rem;
+    margin: 2%;
+  }
+
+  .aca-navbar {
+    top: 8.67dvh;
+  }
+}
+
+/* Tablets and iPads (portrait) */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .aca-overview,
+  .aca-course,
+  .aca-peos,
+  .aca-pos,
+  .aca-psos,
+  .aca-fees,
+  .aca-grid2 {
+    grid-template-columns: 1fr 1fr;
+  }
+
   .aca-article {
     padding: 2rem;
     margin: 3%;
   }
-  
-  #aca-navLinks {
-    flex-wrap: wrap;
-    justify-content: center;
+
+  .aca-navbar {
+    top: 6.7dvh;
   }
-  
-  .aca-navLists {
-    margin: 5px;
+}
+
+/* Tablets and iPads (landscape) */
+@media screen and (min-width: 1024px) and (max-width: 1366px) {
+  .aca-overview,
+  .aca-course,
+  .aca-peos,
+  .aca-pos,
+  .aca-psos,
+  .aca-fees,
+  .aca-grid2 {
+    grid-template-columns: 2fr 1fr;
+  }
+
+  .aca-article {
+    padding: 2.5rem;
+    margin: 4%;
+  }
+
+  .aca-navbar {
+    top: 5.8dvh;
+  }
+}
+
+/* Larger screens */
+@media screen and (min-width: 1367px) {
+  .aca-navbar {
+    top: 11vh;
   }
 }
