@@ -1,20 +1,36 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.main-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 .aca-img {
-  height: 60dvh;
+  height: 60vh;
   background-color: black;
 }
+
 .aca-bgimg {
-  height: 60dvh;
-  width: 100dvw;
+  height: 60vh;
+  width: 100%;
   object-fit: cover;
 }
+
 .spacer {
   background-color: black;
-  height: 100dvh;
+  height: 100vh;
 }
+
 .aca-article {
   padding: 3rem;
   margin: 5%;
 }
+
 .aca-overview,
 .aca-course,
 .aca-peos,
@@ -26,11 +42,13 @@
   grid-gap: 20px;
   padding: 20px;
 }
+
 .aca-grid-item {
   background-color: #f0f0f0;
   padding: 20px;
   border-radius: 5px;
 }
+
 .aca-grid2 {
   display: grid;
   grid-template-columns: 3fr 1fr;
@@ -38,6 +56,7 @@
   padding: 20px;
   background-color: black;
 }
+
 .aca-navbar {
   position: sticky;
   top: 8vh;
@@ -46,12 +65,14 @@
   background-color: black;
   z-index: 100;
 }
+
 #aca-navLinks {
   display: flex;
   list-style: none;
   padding: 0;
   margin: 10px;
 }
+
 .aca-navLists {
   margin: 0 10px;
   padding: 5px 10px;
@@ -59,10 +80,12 @@
   transition: background-color 0.3s ease;
   color: white;
 }
+
 .aca-navLists a {
   text-decoration: none;
   color: inherit;
 }
+
 .aca-navLists:hover {
   background-color: #0088cc;
 }
@@ -75,17 +98,20 @@
   .aca-psos,
   .aca-fees,
   .aca-grid2 {
-      grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
   }
+  
   .aca-article {
-      padding: 2rem;
-      margin: 3%;
+    padding: 2rem;
+    margin: 3%;
   }
+  
   #aca-navLinks {
-      flex-wrap: wrap;
-      justify-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
   }
+  
   .aca-navLists {
-      margin: 5px;
+    margin: 5px;
   }
 }
