@@ -20,7 +20,7 @@
           <a href="#">Campus &amp; City</a>
         </li>
         <li class="navLists">
-          <a href="academics.php">Academic Life</a>
+          <a href="#">Academic Life</a>
         </li>
         <li class="navLists">
           <a href="#">Research</a>
