@@ -8,31 +8,25 @@ body {
 .main-container {
   max-width: 1200px;
   margin: 0 auto;
-}
-* {
-  scrollbar-width: none;
-  box-sizing: border-box;
+  padding: 0 15px;
 }
 
 .aca-img {
-  height: 60vh;
+  height: 40vh;
+  min-height: 200px;
+  max-height: 400px;
   background-color: black;
 }
 
 .aca-bgimg {
-  height: 60vh;
+  height: 100%;
   width: 100%;
   object-fit: cover;
 }
 
-.spacer {
-  background-color: black;
-  height: 100vh;
-}
-
 .aca-article {
-  padding: 3rem;
-  margin: 5%;
+  padding: 1.5rem;
+  margin: 2%;
 }
 
 .aca-overview,
@@ -40,43 +34,38 @@ body {
 .aca-peos,
 .aca-pos,
 .aca-psos,
-.aca-fees {
+.aca-fees,
+.aca-grid2 {
   display: grid;
-  grid-template-columns: 3fr 1fr;
+  grid-template-columns: 1fr;
   grid-gap: 20px;
-  padding: 20px;
+  padding: 15px;
 }
 
 .aca-grid-item {
   background-color: #f0f0f0;
-  padding: 20px;
+  padding: 15px;
   border-radius: 5px;
-}
-
-.aca-grid2 {
-  display: grid;
-  grid-template-columns: 3fr 1fr;
-  grid-gap: 20px;
-  padding: 20px;
-  background-color: black;
 }
 
 .aca-navbar {
   position: sticky;
-  top: 10vh;
+  top: 0;
   width: 100%;
   display: flex;
   justify-content: center;
   background-color: black;
   z-index: 9;
+  padding: 10px 0;
 }
 
 #aca-navLinks {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   list-style: none;
   padding: 0;
-  margin: 10px;
+  margin: 0;
 }
 
 .aca-navLists {
@@ -91,36 +80,25 @@ body {
   text-decoration: none;
   color: inherit;
   white-space: nowrap;
+  font-size: 0.9rem;
 }
 
 .aca-navLists:hover {
   background-color: #0088cc;
 }
 
-/* Mobile devices */
-@media screen and (max-width: 767px) {
-  .aca-overview,
-  .aca-course,
-  .aca-peos,
-  .aca-pos,
-  .aca-psos,
-  .aca-fees,
-  .aca-grid2 {
-    grid-template-columns: 1fr;
-  }
-
-  .aca-article {
-    padding: 1rem;
-    margin: 2%;
-  }
-
+/* Small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
   .aca-navbar {
-    top: 8.67dvh;
+    top: 8.5vh;
   }
 }
 
-/* Tablets and iPads (portrait) */
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+/* Medium devices (tablets, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .aca-navbar {
+    top: 9vh;
+  }
   .aca-overview,
   .aca-course,
   .aca-peos,
@@ -130,19 +108,13 @@ body {
   .aca-grid2 {
     grid-template-columns: 1fr 1fr;
   }
-
-  .aca-article {
-    padding: 2rem;
-    margin: 3%;
-  }
-
-  .aca-navbar {
-    top: 6.7dvh;
-  }
 }
 
-/* Tablets and iPads (landscape) */
-@media screen and (min-width: 1024px) and (max-width: 1366px) {
+/* iPad mini specific (768x1024) */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  .aca-navbar {
+    top: 9.2vh;
+  }
   .aca-overview,
   .aca-course,
   .aca-peos,
@@ -152,20 +124,61 @@ body {
   .aca-grid2 {
     grid-template-columns: 2fr 1fr;
   }
-
   .aca-article {
-    padding: 2.5rem;
-    margin: 4%;
+    padding: 2rem;
+    margin: 3%;
   }
-
-  .aca-navbar {
-    top: 5.8dvh;
+  .aca-navLists a {
+    font-size: 1rem;
   }
 }
 
-/* Larger screens */
-@media screen and (min-width: 1367px) {
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
   .aca-navbar {
-    top: 11vh;
+    top: 5.8vh;
+  }
+  .aca-overview,
+  .aca-course,
+  .aca-peos,
+  .aca-pos,
+  .aca-psos,
+  .aca-fees,
+  .aca-grid2 {
+    grid-template-columns: 3fr 1fr;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .aca-navbar {
+    top: 10vh;
+  }
+}
+
+/* For Surface Duo and similar dual-screen devices */
+@media (min-width: 540px) and (max-width: 720px) and (orientation: portrait),
+  (min-width: 720px) and (max-width: 1114px) and (orientation: landscape) {
+  .aca-overview,
+  .aca-course,
+  .aca-peos,
+  .aca-pos,
+  .aca-psos,
+  .aca-fees,
+  .aca-grid2 {
+    grid-template-columns: 1fr;
+  }
+  .aca-navbar {
+    top: 9.5vh;
+  }
+}
+
+/* For foldable devices in folded state */
+@media (max-width: 320px) {
+  .aca-navLists a {
+    font-size: 0.8rem;
+  }
+  .aca-navbar {
+    top: 10.8vh;
   }
 }
