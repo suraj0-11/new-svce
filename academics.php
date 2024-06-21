@@ -24,19 +24,28 @@
                 <a href="#">Overview</a>
             </li>
             <li class="aca-navLists">
-                <a href="#">Course Curriculum</a>
+                <a href="#">Programme Structure</a>
             </li>
             <li class="aca-navLists">
-                <a href="academics.php">PEOs</a>
+                <a href="academics.php">Fees</a>
             </li>
             <li class="aca-navLists">
-                <a href="#">POs</a>
+                <a href="#">Research Facilities</a>
             </li>
             <li class="aca-navLists">
-                <a href="#">PSOs</a>
+                <a href="#">Career Oppurtunities</a>
             </li>
             <li class="aca-navLists">
-                <a href="#">Fees</a>
+                <a href="#">Faculty & Staff</a>
+            </li>
+            <li class="aca-navLists">
+                <a href="#">Events & News</a>
+            </li>
+            <li class="aca-navLists">
+                <a href="#">Alumni & Giving</a>
+            </li>   
+            <li class="aca-navLists">
+                <a href="#">Contact Us</a>
             </li>
         </ul>
     </div>
