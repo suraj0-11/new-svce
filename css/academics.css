@@ -63,7 +63,7 @@ body {
 
 .aca-navbar {
   position: sticky;
-  top: 11vh;
+  top: 10vh;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -166,6 +166,6 @@ body {
 /* Larger screens */
 @media screen and (min-width: 1367px) {
   .aca-navbar {
-    top: 11vh;
+    top: 10vh;
   }
 }
