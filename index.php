@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SVCE Bengaluru</title>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+       @import url('https://fonts.cdnfonts.com/css/sf-pro-display');
     </style>
     <link rel="stylesheet" href="css\navbar.css?v=<?php echo time(); ?>">
     <link rel="stylesheet" href="css\animation.css?v=<?php echo time(); ?>">

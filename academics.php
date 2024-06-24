@@ -16,7 +16,7 @@
 <body>
     <div class="navBar"><?php include "src/navbar.php"; ?></div>
     <div class="aca-img">
-        <img class="aca-bgimg" src="assets/bgimages/333.jpg" alt="">
+        <img class="aca-bgimg" src="assets/bgimages/112.jpg" alt="">
     </div>
     <div class="aca-navbar">
         <ul id="aca-navLinks">

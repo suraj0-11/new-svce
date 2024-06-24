@@ -1,7 +1,9 @@
+
 * {
   margin: 0;
   padding: 0;
 }
+
 
 .container {
   max-width: 1200px;
@@ -14,6 +16,8 @@
   color: white;
   padding: 40px 0;
   font-size: 1.2rem;
+  font-family: 'SF Pro Display', sans-serif;
+                                                
 }
 
 .info-categories {
