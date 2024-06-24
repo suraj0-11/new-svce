@@ -6,10 +6,10 @@
           <span class="logoSize">
             <img src="assets\svce-logo.png" alt="SVCE Logo" width="64" height="64" />
           </span>
-          <span class="logoGlow">
-            <span class="logoTextFirstSize">SVCE </span>
-            <span class="logoTextSecondSize">Bengaluru</span>
-          </span>
+          <a class="no-underline" href="index.php"><span class="logoGlow">
+              <span class="logoTextFirstSize">SVCE </span>
+              <span class="logoTextSecondSize">Bengaluru</span>
+            </span></a>
         </div>
       </div>
       <ul id="navLinks" class="hidden md:flex no-underline">
@@ -20,7 +20,7 @@
           <a href="#">Campus &amp; City</a>
         </li>
         <li class="navLists">
-          <a href="#">Academic Life</a>
+          <a href="academics.php">Academic Life</a>
         </li>
         <li class="navLists">
           <a href="#">Research</a>
