@@ -20,98 +20,76 @@
     </div>
     <div class="aca-navbar">
         <ul id="aca-navLinks">
-            <li class="aca-navLists">
-                <a href="#">Overview</a>
-            </li>
-            <li class="aca-navLists">
-                <a href="#">Programme Structure</a>
-            </li>
-            <li class="aca-navLists">
-                <a href="academics.php">Fees</a>
-            </li>
-            <li class="aca-navLists">
-                <a href="#">Research Facilities</a>
-            </li>
-            <li class="aca-navLists">
-                <a href="#">Career Oppurtunities</a>
-            </li>
-            <li class="aca-navLists">
-                <a href="#">Faculty & Staff</a>
-            </li>
-            <li class="aca-navLists">
-                <a href="#">Events & News</a>
-            </li>
-            <li class="aca-navLists">
-                <a href="#">Alumni & Giving</a>
-            </li>   
-            <li class="aca-navLists">
-                <a href="#">Contact Us</a>
-            </li>
+            <li class="aca-navLists"><a href="#overview">Overview</a></li>
+            <li class="aca-navLists"><a href="#programme-structure">Programme Structure</a></li>
+            <li class="aca-navLists"><a href="#research-facilities">Research Facilities</a></li>
+            <li class="aca-navLists"><a href="#career-opportunities">Career Opportunities</a></li>
+            <li class="aca-navLists"><a href="#faculty-staff">Faculty & Staff</a></li>
+            <li class="aca-navLists"><a href="#events-news">Events & News</a></li>
+            <li class="aca-navLists"><a href="#alumni-giving">Alumni & Giving</a></li>
+            <li class="aca-navLists"><a href="#contact-us">Contact Us</a></li>
         </ul>
     </div>
-    <div class="aca-article">
-        <div class="aca-overview">
-            <div class="aca-grid-item">
-                <h2>Article 1</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor tellus vel velit bibendum, vel malesuada ipsum tincidunt.</p>
-            </div>
-            <div class="aca-grid-item">
-                <h2>Handbook</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor tellus vel velit bibendum, vel malesuada ipsum tincidunt.</p>
-            </div>
+
+    <article class="article-wrapper">
+        <h1 class="title">Computer Science & Engineering - Artificial Intelligence</h1>
+
+        <nav class="side-nav">
+            <ul class="side-nav-list">
+                <li class="side-nav-item"><a href="#overview">Overview</a></li>
+                <li class="side-nav-item"><a href="#programme-structure">Programme Structure</a></li>
+                <li class="side-nav-item"><a href="#research-facilities">Research Facilities</a></li>
+                <li class="side-nav-item"><a href="#career-opportunities">Career Opportunities</a></li>
+                <li class="side-nav-item"><a href="#faculty-staff">Faculty & Staff</a></li>
+                <li class="side-nav-item"><a href="#events-news">Events & News</a></li>
+                <li class="side-nav-item"><a href="#alumni-giving">Alumni & Giving</a></li>
+                <li class="side-nav-item"><a href="#contact-us">Contact Us</a></li>
+            </ul>
+        </nav>
+
+        <div class="main-content">
+            <section id="overview">
+                <h2 class="subhead">Overview</h2>
+                <p class="article-paragraph">Overview content goes here...</p>
+            </section>
+
+            <section id="programme-structure">
+                <h2 class="subhead">Programme Structure</h2>
+                <p class="article-paragraph">Programme structure details go here...</p>
+            </section>
+
+            <section id="research-facilities">
+                <h2 class="subhead">Research Facilities</h2>
+                <p class="article-paragraph">Information about research facilities goes here...</p>
+            </section>
+
+            <section id="career-opportunities">
+                <h2 class="subhead">Career Opportunities</h2>
+                <p class="article-paragraph">Career opportunities information goes here...</p>
+            </section>
+
+            <section id="faculty-staff">
+                <h2 class="subhead">Faculty & Staff</h2>
+                <p class="article-paragraph">Faculty and staff information goes here...</p>
+            </section>
+
+            <section id="events-news">
+                <h2 class="subhead">Events & News</h2>
+                <p class="article-paragraph">Latest events and news go here...</p>
+            </section>
+
+            <section id="alumni-giving">
+                <h2 class="subhead">Alumni & Giving</h2>
+                <p class="article-paragraph">Alumni information and giving opportunities go here...</p>
+            </section>
+
+            <section id="contact-us">
+                <h2 class="subhead">Contact Us</h2>
+                <p class="article-paragraph">Contact information goes here...</p>
+            </section>
         </div>
-        <div class="aca-course">
-            <div class="aca-grid-item">
-                <h2>Article 1</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor tellus vel velit bibendum, vel malesuada ipsum tincidunt.</p>
-            </div>
-            <div class="aca-grid-item">
-                <h2>Career Options</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor tellus vel velit bibendum, vel malesuada ipsum tincidunt.</p>
-            </div>
-        </div>
-        <div class="aca-peos">
-            <div class="aca-grid-item">
-                <h2>Article 1</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor tellus vel velit bibendum, vel malesuada ipsum tincidunt.</p>
-            </div>
-            <div class="aca-grid-item">
-                <h2>Article 2</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor tellus vel velit bibendum, vel malesuada ipsum tincidunt.</p>
-            </div>
-        </div>
-        <div class="aca-pos">
-            <div class="aca-grid-item">
-                <h2>Article 1</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor tellus vel velit bibendum, vel malesuada ipsum tincidunt.</p>
-            </div>
-            <div class="aca-grid-item">
-                <h2>Article 2</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor tellus vel velit bibendum, vel malesuada ipsum tincidunt.</p>
-            </div>
-        </div>
-        <div class="aca-psos">
-            <div class="aca-grid-item">
-                <h2>Article 1</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor tellus vel velit bibendum, vel malesuada ipsum tincidunt.</p>
-            </div>
-            <div class="aca-grid-item">
-                <h2>Article 2</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor tellus vel velit bibendum, vel malesuada ipsum tincidunt.</p>
-            </div>
-        </div>
-        <div class="aca-fees">
-            <div class="aca-grid-item">
-                <h2>Article 1</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor tellus vel velit bibendum, vel malesuada ipsum tincidunt.</p>
-            </div>
-            <div class="aca-grid-item">
-                <h2>Article 2</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor tellus vel velit bibendum, vel malesuada ipsum tincidunt.</p>
-            </div>
-        </div>
-    </div>
-    <!-- <div class="spacer"></div> -->
+    </article>
+
     <div class="Footer"><?php include "src/footer.php"; ?></div>
 </body>
 

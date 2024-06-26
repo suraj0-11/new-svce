@@ -19,38 +19,11 @@ body {
 }
 
 .aca-bgimg {
-
-
   height: 50vh;
-  
+
   width: 100%;
   object-fit: cover;
 }
-
-.aca-article {
-  padding: 1.5rem;
-  margin: 2%;
-}
-
-.aca-overview,
-.aca-course,
-.aca-peos,
-.aca-pos,
-.aca-psos,
-.aca-fees,
-.aca-grid2 {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-gap: 20px;
-  padding: 15px;
-}
-
-.aca-grid-item {
-  background-color: #f0f0f0;
-  padding: 15px;
-  border-radius: 5px;
-}
-
 .aca-navbar {
   position: sticky;
   top: 0;
@@ -102,34 +75,12 @@ body {
   .aca-navbar {
     top: 9vh;
   }
-  .aca-overview,
-  .aca-course,
-  .aca-peos,
-  .aca-pos,
-  .aca-psos,
-  .aca-fees,
-  .aca-grid2 {
-    grid-template-columns: 1fr 1fr;
-  }
 }
 
 /* iPad mini specific (768x1024) */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
   .aca-navbar {
     top: 9.2vh;
-  }
-  .aca-overview,
-  .aca-course,
-  .aca-peos,
-  .aca-pos,
-  .aca-psos,
-  .aca-fees,
-  .aca-grid2 {
-    grid-template-columns: 2fr 1fr;
-  }
-  .aca-article {
-    padding: 2rem;
-    margin: 3%;
   }
   .aca-navLists a {
     font-size: 1rem;
@@ -140,15 +91,6 @@ body {
 @media only screen and (min-width: 992px) {
   .aca-navbar {
     top: 5.8vh;
-  }
-  .aca-overview,
-  .aca-course,
-  .aca-peos,
-  .aca-pos,
-  .aca-psos,
-  .aca-fees,
-  .aca-grid2 {
-    grid-template-columns: 3fr 1fr;
   }
 }
 
@@ -162,15 +104,6 @@ body {
 /* For Surface Duo and similar dual-screen devices */
 @media (min-width: 540px) and (max-width: 720px) and (orientation: portrait),
   (min-width: 720px) and (max-width: 1114px) and (orientation: landscape) {
-  .aca-overview,
-  .aca-course,
-  .aca-peos,
-  .aca-pos,
-  .aca-psos,
-  .aca-fees,
-  .aca-grid2 {
-    grid-template-columns: 1fr;
-  }
   .aca-navbar {
     top: 9.5vh;
   }
@@ -178,10 +111,129 @@ body {
 
 /* For foldable devices in folded state */
 @media (max-width: 320px) {
-  .aca-navLists a {
-    font-size: 0.8rem;
-  }
   .aca-navbar {
     top: 10.8vh;
+  }
+}
+/* Base styles */
+body {
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+  color: #000;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+/* Article wrapper */
+.article-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  grid-gap: 2rem;
+}
+
+/* Title */
+.title {
+  font-size: 2.5rem;
+  text-align: center;
+  margin: 2rem 0;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #000;
+  grid-column: 1 / -1;
+}
+
+/* Side navigation */
+.side-nav {
+  background-color: #f0f0f0;
+  padding: 1rem;
+  grid-column: 1 / 2;
+  grid-row: 2 / span 2;
+}
+
+.side-nav-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.side-nav-item {
+  margin-bottom: 0.5rem;
+}
+
+.side-nav-item a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  transition: opacity 0.3s ease;
+}
+
+.side-nav-item a:hover {
+  opacity: 0.7;
+}
+
+/* Main content area */
+.main-content {
+  grid-column: 2 / -1;
+}
+
+/* Subhead */
+.subhead {
+  font-size: 1.8rem;
+  margin: 0 0 1rem;
+  border-bottom: 1px solid #000;
+  padding-bottom: 0.5rem;
+}
+
+/* Article content */
+.article-content {
+  margin-bottom: 2rem;
+}
+
+.article-paragraph {
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+/* Blockquote */
+blockquote {
+  font-style: italic;
+  border-left: 2px solid #000;
+  padding-left: 1rem;
+  margin: 1.5rem 0;
+}
+
+/* Article quote */
+.article-quote {
+  border: 1px solid #000;
+  padding: 2rem;
+  margin: 2rem 0;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+/* Feature image */
+.feature-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 2rem auto;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  .article-wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .side-nav {
+    grid-column: 1 / -1;
+    grid-row: auto;
+  }
+
+  .main-content {
+    grid-column: 1 / -1;
   }
 }
