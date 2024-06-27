@@ -16,7 +16,7 @@
 <body>
     <div class="navBar"><?php include "src/navbar.php"; ?></div>
     <div class="aca-img">
-        <img class="aca-bgimg" src="assets/bgimages/111.jpg" alt="">
+        <img class="aca-bgimg" src="assets/bgimages/112.jpg" alt="">
     </div>
     <div class="aca-navbar">
         <ul id="aca-navLinks">
@@ -36,14 +36,17 @@
 
         <nav class="side-nav">
             <ul class="side-nav-list">
-                <li class="side-nav-item"><a href="#overview">Overview</a></li>
-                <li class="side-nav-item"><a href="#programme-structure">Programme Structure</a></li>
-                <li class="side-nav-item"><a href="#research-facilities">Research Facilities</a></li>
-                <li class="side-nav-item"><a href="#career-opportunities">Career Opportunities</a></li>
-                <li class="side-nav-item"><a href="#faculty-staff">Faculty & Staff</a></li>
-                <li class="side-nav-item"><a href="#events-news">Events & News</a></li>
-                <li class="side-nav-item"><a href="#alumni-giving">Alumni & Giving</a></li>
-                <li class="side-nav-item"><a href="#contact-us">Contact Us</a></li>
+                <li class="side-nav-item"><a href="#">Computer Science & Engineering</a></li>
+                <li class="side-nav-item"><a href="#">Computer Science & Engineering -<br> Artificial Intelligence</a>
+                </li>
+                <li class="side-nav-item"><a href="#">Computer Science & Engineering -<br> Data Science</a></li>
+                <li class="side-nav-item"><a href="#">Computer Science & Engineering -<br> Cyber Security</a></li>
+                <li class="side-nav-item"><a href="#">Information Science & Engineering</a></li>
+                <li class="side-nav-item"><a href="#">Electronics & Communication <br> Engineering</a></li>
+                <li class="side-nav-item"><a href="#">Mechanical Engineering</a></li>
+                <li class="side-nav-item"><a href="#">Civil Engineering</a></li>
+                <li class="side-nav-item"><a href="#">Masters of Business Administration</a></li>
+                <li class="side-nav-item"><a href="#">MTech - Structural Engineering</a></li>
             </ul>
         </nav>
 
