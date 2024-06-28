@@ -8,15 +8,15 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
     </style>
-    <link rel="stylesheet" href="css\navbar.css?v=<?php echo time(); ?>">
-    <link rel="stylesheet" href="css\academics.css?v=<?php echo time(); ?>">
-    <link rel="stylesheet" href="css\footer.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="../css/navbar.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="../css/academics.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="../css/footer.css?v=<?php echo time(); ?>">
 </head>
 
 <body>
-    <div class="navBar"><?php include "src/navbar.php"; ?></div>
+    <div class="navBar"><?php include "../src/navbar.php"; ?></div>
     <div class="aca-img">
-        <img class="aca-bgimg" src="assets/bgimages/112.jpg" alt="">
+        <img class="aca-bgimg" src="../assets/bgimages/114.jpg" alt="ece">
     </div>
     <div class="aca-navbar">
         <ul id="aca-navLinks">
@@ -32,7 +32,7 @@
     </div>
 
     <article class="article-wrapper">
-        <h1 class="title">Computer Science & Engineering - Artificial Intelligence</h1>
+        <h1 class="title">Electronics & Communication Engineering</h1>
 
         <nav class="side-nav">
             <ul class="side-nav-list">
@@ -93,7 +93,7 @@
         </div>
     </article>
 
-    <div class="Footer"><?php include "src/footer.php"; ?></div>
+    <div class="Footer"><?php include "../src/footer.php"; ?></div>
     <script>
         document.addEventListener('DOMContentLoaded', function () {
             const navLinks = document.querySelectorAll('#aca-navLinks a, .side-nav-list a');
