@@ -472,17 +472,31 @@
         </div>
 
 
-        <section class="heading">
-            <div class="content">
-                <div class="lockup">
-                    <h2 class="headline">Sri Venkateshwara College Of Engineering <br class="large">
-                        Placement Drives
-                    </h2>
-                    <p class="blurb">
-                        We try our best to get students there dream placements <a href="#">svcengg.edu.in</a>.
-                    </p>
+        <section class="college-header">
+            <div class="college-container">
+                <div class="college-logo">
+                    <img src="assets\svce-logo.png" alt="SVCE Logo">
                 </div>
+                <h1 class="college-title">Sri Venkateshwara College Of Engineering</h1>
+                <h2 class="college-subtitle">Placement Drives</h2>
+                <p class="college-description">Launching careers into the future</p>
+                <div class="college-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">95%</span>
+                        <span class="stat-label">Placement Rate</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">500+</span>
+                        <span class="stat-label">Partner Companies</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">₹18L</span>
+                        <span class="stat-label">Avg. Package</span>
+                    </div>
+                </div>
+                <a href="https://svcengg.edu.in" class="college-cta-button">Explore Opportunities</a>
             </div>
+            <div class="college-background"></div>
         </section>
         <section class="marquees__wrapper">
             <div class="marquee" data-duration="5" data-reverse="true">
