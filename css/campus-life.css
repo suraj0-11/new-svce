@@ -218,12 +218,17 @@ body {
 .college-content-item::after {
   animation-delay: -2s;
 }
-
-.college-content-item:hover {
+.college-content-section:nth-child(even) .college-content-item:hover {
   transform: translateY(-10px) scale(1.03);
   box-shadow: 0 0 40px rgba(0, 136, 204, 0.6);
   background-color: rgba(0, 136, 204, 0.2);
-  color: #ffffff;
+  color: black;
+}
+.college-content-section:nth-child(odd) .college-content-item:hover {
+  transform: translateY(-10px) scale(1.03);
+  box-shadow: 0 0 40px rgba(0, 136, 204, 0.6);
+  background-color: rgba(0, 136, 204, 0.2);
+  color: white;
 }
 
 .college-content-item .content-wrapper {
@@ -297,7 +302,7 @@ body {
 /* Button styles for different backgrounds */
 .college-content-section:nth-child(odd) .college-action-button {
   background-color: rgba(0, 136, 204, 0.2);
-  color: white;
+  color: #0088cc;
 }
 
 .college-content-section:nth-child(odd) .college-action-button:hover {
@@ -307,12 +312,12 @@ body {
 
 .college-content-section:nth-child(even) .college-action-button {
   background-color: rgba(0, 136, 204, 0.2);
-  color: white;
+  color: #0088cc;
 }
 
 .college-content-section:nth-child(even) .college-action-button:hover {
   background-color: rgba(0, 136, 204, 0.4);
-  color: white;
+  color: black;
 }
 
 /* Responsive design adjustments */
@@ -423,7 +428,7 @@ body {
   padding: 0.75rem 1.5rem;
   font-size: clamp(0.8rem, 1.5vw, 1rem);
   background-color: rgba(0, 136, 204, 0.2);
-  color: white;
+  color: #0088cc;
   border: 2px solid #0088cc;
   border-radius: 50px;
   cursor: pointer;
@@ -453,6 +458,7 @@ body {
   transform: scale(1.05);
   box-shadow: 0 0 20px rgba(0, 136, 204, 0.6);
   background-color: rgba(0, 136, 204, 0.4);
+  color: #ffffff;
 }
 
 .clbutton button:hover::before {
