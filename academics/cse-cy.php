@@ -36,17 +36,16 @@
 
         <nav class="side-nav">
             <ul class="side-nav-list">
-                <li class="side-nav-item"><a href="#">Computer Science & Engineering</a></li>
-                <li class="side-nav-item"><a href="#">Computer Science & Engineering -<br> Artificial Intelligence</a>
-                </li>
-                <li class="side-nav-item"><a href="#">Computer Science & Engineering -<br> Data Science</a></li>
-                <li class="side-nav-item"><a href="#">Computer Science & Engineering -<br> Cyber Security</a></li>
-                <li class="side-nav-item"><a href="#">Information Science & Engineering</a></li>
-                <li class="side-nav-item"><a href="#">Electronics & Communication <br> Engineering</a></li>
-                <li class="side-nav-item"><a href="#">Mechanical Engineering</a></li>
-                <li class="side-nav-item"><a href="#">Civil Engineering</a></li>
-                <li class="side-nav-item"><a href="#">Masters of Business Administration</a></li>
-                <li class="side-nav-item"><a href="#">MTech - Structural Engineering</a></li>
+                <li class="side-nav-item"><a href="academics\cse.php">Computer Science & Engineering</a></li>
+                <li class="side-nav-item"><a href="academics\cse-ai.php">Computer Science & Engineering - Artificial Intelligence</a></li>
+                <li class="side-nav-item"><a href="academics\cse-ds.php">Computer Science & Engineering - Data Science</a></li>
+                <li class="side-nav-item"><a href="academics\cse-cy.php">Computer Science & Engineering - Cyber Security</a></li>
+                <li class="side-nav-item"><a href="academics\ise.php">Information Science & Engineering</a></li>
+                <li class="side-nav-item"><a href="academics\ece.php">Electronics & Communication Engineering</a></li>
+                <li class="side-nav-item"><a href="academics\mech.php">Mechanical Engineering</a></li>
+                <li class="side-nav-item"><a href="academics\civil.php">Civil Engineering</a></li>
+                <li class="side-nav-item"><a href="academics\mba.php">Masters of Business Administration</a></li>
+                <li class="side-nav-item"><a href="academics\mtech-st.php">MTech - Structural Engineering</a></li>
             </ul>
         </nav>
 
