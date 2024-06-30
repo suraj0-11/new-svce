@@ -15,19 +15,18 @@ body {
 .aca-img {
   width: 100%;
   height: auto;
-
   background-color: black;
 }
 
 .aca-bgimg {
   height: 50vh;
-
   width: 100%;
   object-fit: cover;
 }
+
 .aca-navbar {
   position: sticky;
-  top: 0;
+  top: 10%;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -66,23 +65,16 @@ body {
 
 /* Small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-  .aca-navbar {
-    top: 8.5vh;
-  }
+  /* Removed .aca-navbar top positioning */
 }
 
 /* Medium devices (tablets, 600px and up) */
 @media only screen and (min-width: 600px) {
-  .aca-navbar {
-    top: 9vh;
-  }
+  /* Removed .aca-navbar top positioning */
 }
 
 /* iPad mini specific (768x1024) */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
-  .aca-navbar {
-    top: 9.2vh;
-  }
   .aca-navLists a {
     font-size: 1rem;
   }
@@ -90,32 +82,25 @@ body {
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-  .aca-navbar {
-    top: 5.8vh;
-  }
+  /* Removed .aca-navbar top positioning */
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-  .aca-navbar {
-    top: 10vh;
-  }
+  /* Removed .aca-navbar top positioning */
 }
 
 /* For Surface Duo and similar dual-screen devices */
 @media (min-width: 540px) and (max-width: 720px) and (orientation: portrait),
   (min-width: 720px) and (max-width: 1114px) and (orientation: landscape) {
-  .aca-navbar {
-    top: 9.5vh;
-  }
+  /* Removed .aca-navbar top positioning */
 }
 
 /* For foldable devices in folded state */
 @media (max-width: 320px) {
-  .aca-navbar {
-    top: 10.8vh;
-  }
+  /* Removed .aca-navbar top positioning */
 }
+
 /* Base styles */
 body {
   font-family: "SF Pro Display", sans-serif;

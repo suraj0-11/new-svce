@@ -1,14 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Signika:wght@300..700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Ubuntu", sans-serif;
 }
+
 .no-underline {
   text-decoration: none;
 }
+
 html {
   scroll-behavior: smooth;
 }
@@ -18,8 +21,9 @@ html {
   top: 0;
   left: 0;
   right: 0;
+  height: 10vh; /* 10% of viewport height for all screens */
   display: flex;
-  padding: 8px;
+  padding: 0 8px;
   z-index: 10;
   justify-content: space-between;
   align-items: center;
@@ -42,32 +46,30 @@ html {
 .logoContainer {
   display: flex;
   align-items: center;
-  padding-left: 10px;
+  height: 100%;
 }
 
 .logoText {
   font-weight: bold;
-  font-size: 1.25rem;
-  line-height: 1.75rem;
+  font-size: 2vh;
+  line-height: 2.5vh;
   display: flex;
   align-items: center;
-  padding-left: 10px;
+  padding-left: 1vh;
 }
 
 .logoSize {
   display: flex;
   align-items: center;
-  width: 4rem;
-  height: 4rem;
+  width: 6vh;
+  height: 6vh;
 }
 
 .logoTextFirstSize {
   color: #0088cc;
-
   font-weight: bold;
   font-family: "Kanit", sans-serif;
-  /* Change font weight to bold */
-  font-size: larger;
+  font-size: 2vh;
   padding-right: 0.25em;
 }
 
@@ -75,8 +77,7 @@ html {
   color: #f3f4f6;
   font-weight: bold;
   font-family: "Kanit", sans-serif;
-  /* Change font weight to bold */
-  font-size: larger;
+  font-size: 2vh;
 }
 
 #navLinks {
@@ -84,7 +85,7 @@ html {
   align-items: center;
   list-style-type: none;
   text-decoration: none;
-  padding-right: 10px;
+  height: 100%;
 }
 
 #navLinks li a {
@@ -93,11 +94,11 @@ html {
 }
 
 #navLinks li {
-  margin-left: 1rem;
-  padding: 0.25rem 0.75rem;
+  margin-left: 1vh;
+  padding: 0.5vh 1vh;
   border-radius: 9999px;
-  font-size: 1.125rem;
-  line-height: 1.75rem;
+  font-size: 2vh;
+  line-height: 2.5vh;
   color: #f3f4f6;
   transition: color 0.3s ease, background-color 0.3s ease;
 }
@@ -119,11 +120,11 @@ html {
     flex-direction: column;
     align-items: flex-start;
     position: absolute;
-    top: 100%;
+    top: 10vh;
     left: 0;
     right: 0;
     background-color: #072f4a;
-    padding: 1rem;
+    padding: 1vh;
   }
 
   #navLinks.show {
@@ -131,13 +132,12 @@ html {
   }
 
   #navLinks li {
-    margin: 0.5rem 0;
+    margin: 1vh 0;
   }
 
   #toggleNav {
     display: block;
-  }
-  .logoText {
-    font-size: 1rem;
+    height: 6vh;
+    width: 6vh;
   }
 }
