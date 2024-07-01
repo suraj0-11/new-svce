@@ -40,7 +40,7 @@
                 </b>
             </div>
             <div class="backgroundDiv">
-                <video class="backgroundVideo" src="assets/video/video.mp4" autoplay loop muted></video>
+                <video class="backgroundVideo" src="assets/video/video1.mp4" autoplay loop muted></video>
             </div>
         </div>
         <div class="overflowDiv">
