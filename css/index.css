@@ -180,14 +180,18 @@ figure {
   object-fit: cover;
   background-color: transparent;
 }
+
+
+
 .moto {
   position: absolute;
   top: 40%;
-  left: 20%;
+  font-family: ;
+  left: 35%;
   transform: translate(-40%);
   z-index: 3;
   color: #fff;
-  font-size: 60px;
+  font-size: 45px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   z-index: 9;
 }
